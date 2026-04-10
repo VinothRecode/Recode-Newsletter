@@ -1,0 +1,1022 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QA Weekly Newletter</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&display=swap');
+ 
+/* ============================================================
+   ✏️  EDITOR: Change these values each week
+   ============================================================ */
+:root {
+  --week-label: "WEEK 14 · APRIL 2026";
+  --c1: #ff003c;
+  --c2: #ff6f00;
+  --c3: #ffe600;
+  --c4: #00ff88;
+  --c5: #00cfff;
+  --c6: #a855f7;
+  --c7: #ff0090;
+  --c8: #ff4800;
+  --c9: #39ff14;
+}
+ 
+/* ============================================================
+   BASE
+   ============================================================ */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  cursor: crosshair;
+}
+ 
+/* ============================================================
+   FIREWORKS CANVAS
+   ============================================================ */
+#fw-canvas {
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+ 
+/* ============================================================
+   RAINBOW MARQUEE
+   ============================================================ */
+.marquee-border {
+  background: linear-gradient(90deg,#ff003c,#ff6f00,#ffe600,#00ff88,#00cfff,#a855f7,#ff0090,#ff003c);
+  background-size: 300% 100%;
+  animation: gradShift 3s linear infinite;
+  padding: 3px 0;
+}
+@keyframes gradShift { to { background-position: 300% center; } }
+.marquee-inner {
+  background: #000;
+  padding: 7px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marquee-text {
+  display: inline-block;
+  animation: roll 25s linear infinite;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #ffe600;
+}
+@keyframes roll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+ 
+/* ============================================================
+   HEADER
+   ============================================================ */
+header {
+  text-align: center;
+  padding: 48px 24px 28px;
+  position: relative;
+  overflow: hidden;
+}
+.header-glow {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, #1a003088 0%, #000 70%);
+}
+.neon-title {
+  position: relative;
+  font-family: 'Orbitron', monospace;
+  font-size: clamp(2rem, 6vw, 4.2rem);
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 30px #a855f7, 0 0 70px #a855f7, 0 0 120px #ff003c;
+  animation: flicker 5s infinite;
+}
+@keyframes flicker {
+  0%,94%,100% { text-shadow: 0 0 10px #fff, 0 0 30px #a855f7, 0 0 70px #a855f7, 0 0 120px #ff003c; }
+  95% { text-shadow: 0 0 4px #fff, 0 0 8px #a855f7; }
+  97% { text-shadow: 0 0 10px #fff, 0 0 30px #a855f7, 0 0 70px #a855f7, 0 0 120px #ff003c; }
+}
+.header-sub {
+  position: relative;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #00cfff;
+  margin-top: 10px;
+  animation: pulseFade 2.5s ease-in-out infinite;
+}
+@keyframes pulseFade { 0%,100%{opacity:1} 50%{opacity:.35} }
+.header-rule {
+  position: relative;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #a855f7, #ff003c, #00cfff, transparent);
+  max-width: 700px;
+  margin: 18px auto 0;
+}
+ 
+/* ============================================================
+   TYPEWRITER BAR
+   ============================================================ */
+.tw-bar {
+  background: #080808;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 11px 24px;
+  text-align: center;
+}
+.tw-text {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  color: #00ff88;
+  border-right: 2px solid #00ff88;
+  display: inline-block;
+  animation: blink .6s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 90vw;
+}
+@keyframes blink { 50% { border-color: transparent; } }
+ 
+/* ============================================================
+   KINETIC TOPICS
+   ============================================================ */
+.kinetic-strip {
+  overflow: hidden;
+  padding: 14px 20px;
+  background: #050505;
+  border-bottom: 1px solid #111;
+  text-align: center;
+}
+.kinetic-word {
+  display: inline-block;
+  font-family: 'Orbitron', monospace;
+  font-size: clamp(.8rem, 2.2vw, 1.4rem);
+  font-weight: 900;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform .15s;
+  animation: float 3s ease-in-out infinite;
+}
+.kinetic-word:nth-child(1) { color: var(--c1); animation-delay: 0s; }
+.kinetic-word:nth-child(2) { color: var(--c5); animation-delay: .2s; }
+.kinetic-word:nth-child(3) { color: var(--c4); animation-delay: .4s; }
+.kinetic-word:nth-child(4) { color: var(--c6); animation-delay: .6s; }
+.kinetic-word:nth-child(5) { color: var(--c2); animation-delay: .8s; }
+.kinetic-word:nth-child(6) { color: var(--c7); animation-delay: 1s; }
+@keyframes float { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-8px) rotate(-2deg)} }
+ 
+/* ============================================================
+   STATS STRIP (Neumorphism)
+   ============================================================ */
+.neu-strip {
+  margin: 0 24px 32px;
+  background: #0e0e0e;
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 8px 8px 22px #000, -4px -4px 12px #1c1c1c;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.neu-stat {
+  background: #0e0e0e;
+  border-radius: 14px;
+  padding: 16px 22px;
+  box-shadow: 4px 4px 12px #000, -2px -2px 7px #1e1e1e;
+  text-align: center;
+  flex: 1;
+  min-width: 120px;
+  cursor: pointer;
+  transition: box-shadow .2s, transform .2s;
+}
+.neu-stat:hover {
+  box-shadow: inset 3px 3px 10px #000, inset -2px -2px 6px #1e1e1e;
+  transform: scale(.97);
+}
+.neu-num {
+  font-family: 'Orbitron', monospace;
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+.neu-label {
+  font-size: 10px;
+  color: #555;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono', monospace;
+}
+ 
+/* ============================================================
+   MAIN GRID
+   ============================================================ */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 26px;
+  padding: 0 24px 32px;
+}
+ 
+/* ============================================================
+   FLIP CARDS (3D)
+   ============================================================ */
+.flip-card {
+  perspective: 1100px;
+  cursor: pointer;
+  height: 420px;
+}
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform .75s cubic-bezier(.4,2,.55,1);
+}
+.flip-card:hover .flip-inner { transform: rotateY(180deg); }
+.flip-front, .flip-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.flip-front { background: #0a0a0a; }
+.flip-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 24px;
+  text-align: center;
+  gap: 12px;
+}
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 2px solid #111;
+}
+.card-body { padding: 16px; }
+.card-tag {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 3px;
+  padding: 3px 11px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.45;
+  font-family: 'Rajdhani', sans-serif;
+}
+.back-emoji { font-size: 44px; line-height: 1; }
+.back-title { font-size: 17px; font-weight: 700; color: #fff; font-family: 'Orbitron', monospace; line-height: 1.3; }
+.back-text { font-size: 13px; line-height: 1.7; opacity: .82; font-family: 'Rajdhani', sans-serif; }
+.back-btn {
+  margin-top: 6px;
+  padding: 9px 24px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform .2s, box-shadow .2s;
+}
+.back-btn:hover { transform: scale(1.08); }
+ 
+/* Per-card color theming — 9 colors */
+.n1 .flip-front { box-shadow: 0 0 22px #ff003c33, inset 0 0 18px #ff003c0a; }
+.n1 .flip-back  { background: linear-gradient(135deg,#1a0010,#2d0020); }
+.n1 .card-tag   { background:#ff003c1a; color:var(--c1); border:1px solid #ff003c44; }
+.n1 .card-title { color: var(--c1); }
+.n1 .back-title { color: var(--c1); }
+.n1 .back-btn   { background: var(--c1); color: #fff; }
+ 
+.n2 .flip-front { box-shadow: 0 0 22px #00cfff33, inset 0 0 18px #00cfff0a; }
+.n2 .flip-back  { background: linear-gradient(135deg,#001a2d,#00223d); }
+.n2 .card-tag   { background:#00cfff1a; color:var(--c5); border:1px solid #00cfff44; }
+.n2 .card-title { color: var(--c5); }
+.n2 .back-title { color: var(--c5); }
+.n2 .back-btn   { background: var(--c5); color: #000; }
+ 
+.n3 .flip-front { box-shadow: 0 0 22px #00ff8833, inset 0 0 18px #00ff880a; }
+.n3 .flip-back  { background: linear-gradient(135deg,#001a10,#002018); }
+.n3 .card-tag   { background:#00ff881a; color:var(--c4); border:1px solid #00ff8844; }
+.n3 .card-title { color: var(--c4); }
+.n3 .back-title { color: var(--c4); }
+.n3 .back-btn   { background: var(--c4); color: #000; }
+ 
+.n4 .flip-front { box-shadow: 0 0 22px #a855f733, inset 0 0 18px #a855f70a; }
+.n4 .flip-back  { background: linear-gradient(135deg,#160028,#200038); }
+.n4 .card-tag   { background:#a855f71a; color:var(--c6); border:1px solid #a855f744; }
+.n4 .card-title { color: var(--c6); }
+.n4 .back-title { color: var(--c6); }
+.n4 .back-btn   { background: var(--c6); color: #fff; }
+ 
+.n5 .flip-front { box-shadow: 0 0 22px #ff6f0033, inset 0 0 18px #ff6f000a; }
+.n5 .flip-back  { background: linear-gradient(135deg,#1a0e00,#2a1600); }
+.n5 .card-tag   { background:#ff6f001a; color:var(--c2); border:1px solid #ff6f0044; }
+.n5 .card-title { color: var(--c2); }
+.n5 .back-title { color: var(--c2); }
+.n5 .back-btn   { background: var(--c2); color: #fff; }
+ 
+.n6 .flip-front { box-shadow: 0 0 22px #ff009033, inset 0 0 18px #ff00900a; }
+.n6 .flip-back  { background: linear-gradient(135deg,#1a0018,#2a0028); }
+.n6 .card-tag   { background:#ff00901a; color:var(--c7); border:1px solid #ff009044; }
+.n6 .card-title { color: var(--c7); }
+.n6 .back-title { color: var(--c7); }
+.n6 .back-btn   { background: var(--c7); color: #fff; }
+ 
+.n7 .flip-front { box-shadow: 0 0 22px #ffe60033, inset 0 0 18px #ffe6000a; }
+.n7 .flip-back  { background: linear-gradient(135deg,#1a1800,#2a2600); }
+.n7 .card-tag   { background:#ffe6001a; color:var(--c3); border:1px solid #ffe60044; }
+.n7 .card-title { color: var(--c3); }
+.n7 .back-title { color: var(--c3); }
+.n7 .back-btn   { background: var(--c3); color: #000; }
+ 
+.n8 .flip-front { box-shadow: 0 0 22px #ff480033, inset 0 0 18px #ff48000a; }
+.n8 .flip-back  { background: linear-gradient(135deg,#1a0800,#2a1000); }
+.n8 .card-tag   { background:#ff48001a; color:var(--c8); border:1px solid #ff480044; }
+.n8 .card-title { color: var(--c8); }
+.n8 .back-title { color: var(--c8); }
+.n8 .back-btn   { background: var(--c8); color: #fff; }
+ 
+.n9 .flip-front { box-shadow: 0 0 22px #39ff1433, inset 0 0 18px #39ff140a; }
+.n9 .flip-back  { background: linear-gradient(135deg,#001a00,#002800); }
+.n9 .card-tag   { background:#39ff141a; color:var(--c9); border:1px solid #39ff1444; }
+.n9 .card-title { color: var(--c9); }
+.n9 .back-title { color: var(--c9); }
+.n9 .back-btn   { background: var(--c9); color: #000; }
+ 
+/* ============================================================
+   BOTTOM ROW: QUIZ + WINNER
+   ============================================================ */
+.bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  padding: 0 24px 36px;
+}
+@media(max-width:640px) { .bottom-row { grid-template-columns: 1fr; } }
+ 
+/* Glassmorphism panels */
+.glass-panel {
+  position: relative;
+  background: rgba(255,255,255,.04);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 22px;
+  padding: 30px 28px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  top: -60%; left: -60%;
+  width: 220%; height: 220%;
+  background: conic-gradient(transparent 0deg,#a855f728 60deg,transparent 120deg,#00cfff28 180deg,transparent 240deg,#ff003c28 300deg,transparent 360deg);
+  animation: spin 10s linear infinite;
+  z-index: 0;
+}
+.glass-panel::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #070707;
+  border-radius: 20px;
+  z-index: 1;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.glass-inner { position: relative; z-index: 2; }
+ 
+/* Quiz panel */
+.quiz-badge {
+  display: inline-block;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #008080, #00cfff);
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.quiz-title {
+  font-family: 'Orbitron', monospace;
+  font-size: clamp(.9rem,2.2vw,1.3rem);
+  color: #fff;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+.quiz-question {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 14px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.quiz-answer-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.quiz-last {
+  font-size: 13px;
+  color: #888;
+  font-family: 'Share Tech Mono', monospace;
+}
+.quiz-last span { color: #ffe600; font-size: 18px; font-family: 'Orbitron', monospace; }
+.quiz-cta {
+  color: #ff003c;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 10px;
+}
+ 
+/* Quiz SVG circles */
+.quiz-svg text { font-family: 'Orbitron', monospace; font-weight: 700; }
+ 
+/* Winner panel */
+.winner-badge {
+  display: inline-block;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #ff003c, #ff6f00);
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.winner-title {
+  font-family: 'Orbitron', monospace;
+  font-size: clamp(.9rem,2.2vw,1.3rem);
+  color: #fff;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+.winner-photo-wrap {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 16px;
+}
+.winner-photo-ring {
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  background: conic-gradient(#ff003c, #ff6f00, #ffe600, #00ff88, #00cfff, #a855f7, #ff003c);
+  animation: spin 3s linear infinite;
+}
+.winner-photo-mask {
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: #070707;
+  z-index: 1;
+}
+.winner-photo {
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  display: block;
+}
+/* Placeholder avatar when no photo */
+.winner-avatar {
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background: #111;
+}
+.winner-name {
+  font-family: 'Orbitron', monospace;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #ffe600;
+  text-align: center;
+  text-shadow: 0 0 20px #ffe60066;
+  margin-bottom: 6px;
+  animation: pulseFade 2s ease-in-out infinite;
+}
+.winner-dept {
+  font-size: 13px;
+  color: #888;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 2px;
+}
+.winner-score {
+  text-align: center;
+  margin-top: 14px;
+  font-family: 'Orbitron', monospace;
+  font-size: 13px;
+  color: #00ff88;
+}
+.confetti-btn {
+  display: block;
+  margin: 16px auto 0;
+  padding: 9px 28px;
+  border-radius: 30px;
+  border: 2px solid #ffe600;
+  background: transparent;
+  color: #ffe600;
+  font-family: 'Orbitron', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background .2s, color .2s, transform .2s;
+}
+.confetti-btn:hover { background: #ffe600; color: #000; transform: scale(1.05); }
+ 
+/* ============================================================
+   CLICK BLAST
+   ============================================================ */
+.blast {
+  position: fixed;
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%,-50%) scale(0);
+  animation: blastOut .5s ease forwards;
+}
+@keyframes blastOut {
+  0%  { transform: translate(-50%,-50%) scale(0); opacity: 1; }
+  100%{ transform: translate(-50%,-50%) scale(5); opacity: 0; }
+}
+ 
+/* ============================================================
+   ANIMATION CLASSES
+   ============================================================ */
+@keyframes shake    { 0%,100%{transform:translateX(0)} 15%,45%,75%{transform:translateX(-8px)} 30%,60%,90%{transform:translateX(8px)} }
+@keyframes rubber   { 0%{transform:scale(1,1)} 30%{transform:scale(1.25,.75)} 45%{transform:scale(.75,1.25)} 65%{transform:scale(1.1,.9)} 100%{transform:scale(1,1)} }
+@keyframes flashAn  { 0%,100%{opacity:1} 50%{opacity:.08} }
+@keyframes wobble   { 0%,100%{transform:rotate(0)} 15%{transform:rotate(-9deg)} 30%{transform:rotate(7deg)} 50%{transform:rotate(-5deg)} 70%{transform:rotate(3deg)} 90%{transform:rotate(-1deg)} }
+@keyframes bounceUp { 0%,100%{transform:translateY(0)} 40%{transform:translateY(-28px)} 70%{transform:translateY(-14px)} 90%{transform:translateY(-4px)} }
+.a-shake   { animation: shake    .5s ease }
+.a-rubber  { animation: rubber   .6s ease }
+.a-flash   { animation: flashAn  .35s ease 2 }
+.a-wobble  { animation: wobble   .7s ease }
+.a-bounce  { animation: bounceUp .8s ease }
+ 
+/* ============================================================
+   SCROLL REVEAL
+   ============================================================ */
+.reveal { opacity: 0; transform: translateY(36px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+ 
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #040404;
+  border-top: 1px solid #111;
+  font-size: 11px;
+  color: #333;
+  letter-spacing: 3px;
+  font-family: 'Share Tech Mono', monospace;
+}
+ 
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:480px) {
+  .grid { grid-template-columns: 1fr; padding: 0 12px 24px; }
+  .bottom-row { padding: 0 12px 28px; }
+  .neu-strip { margin: 0 12px 24px; }
+}
+</style>
+</head>
+<body>
+ 
+<canvas id="fw-canvas"></canvas>
+ 
+<!-- ================================================================
+  ✏️  HOW TO UPDATE EACH WEEK:
+  
+  1. Change MARQUEE text below
+  2. Change TOPICS in kinetic strip
+  3. Change STATS numbers
+  4. Change each card: data-tag, data-emoji, heading, paragraph, img src
+  5. Change QUIZ question image/text
+  6. Change WINNER name, dept, photo src
+================================================================ -->
+ 
+ 
+<!-- ── MARQUEE ─────────────────────────────────────────────────── -->
+<div class="marquee-border">
+  <div class="marquee-inner">
+    <span class="marquee-text" id="marquee-content">
+      <!-- ✏️ EDIT: Add your weekly headlines here (copy the whole span and repeat) -->
+      ★ RECODE WEEKLY · APRIL 2026 ★ TN ELECTIONS APRIL 23 ★ RECODE IPO FILED ★ CLAUDE CODE SOURCE LEAK ★ CLAW CODE 72K STARS ★ LPG RACKET BUSTED ★ YUVRAJ APOLOGY ★ FLIGHT FARES SURGE ★ DID YOU KNOW? ★ THIS WEEK'S QUIZ ★ &nbsp;&nbsp;&nbsp;&nbsp;
+      ★ RECODE WEEKLY · APRIL 2026 ★ TN ELECTIONS APRIL 23 ★ RECODE IPO FILED ★ CLAUDE CODE SOURCE LEAK ★ CLAW CODE 72K STARS ★ LPG RACKET BUSTED ★ YUVRAJ APOLOGY ★ FLIGHT FARES SURGE ★ DID YOU KNOW? ★ THIS WEEK'S QUIZ ★ &nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+  </div>
+</div>
+ 
+ 
+<!-- ── HEADER ──────────────────────────────────────────────────── -->
+<header>
+  <div class="header-glow"></div>
+  <div class="neon-title">RECODE QA Newsletter</div>
+  <!-- ✏️ EDIT: Change edition label -->
+  <div class="header-sub">UNLOCKING INSIGHTS · UNLEASHING AI · WEEK 14 · APRIL 2026</div>
+  <div class="header-rule"></div>
+</header>
+ 
+ 
+<!-- ── TYPEWRITER BAR ──────────────────────────────────────────── -->
+<div class="tw-bar"><span class="tw-text" id="tw"></span></div>
+ 
+ 
+<!-- ── KINETIC TOPICS ──────────────────────────────────────────── -->
+<div class="kinetic-strip">
+  <!-- ✏️ EDIT: Change topic keywords to match this week's stories -->
+  <span class="kinetic-word" onclick="anim(this,'a-shake')">VINOTH</span>
+  <span class="kinetic-word" onclick="anim(this,'a-rubber')">TECHNOLOGY</span>
+  <span class="kinetic-word" onclick="anim(this,'a-bounce')">SHANKAR AI</span>
+  <span class="kinetic-word" onclick="anim(this,'a-wobble')">CRICKET</span>
+  <span class="kinetic-word" onclick="anim(this,'a-flash')">FINANCE</span>
+  <span class="kinetic-word" onclick="anim(this,'a-shake')">TRAVEL</span>
+</div>
+ 
+ 
+<!-- ── STATS STRIP ─────────────────────────────────────────────── -->
+<div class="neu-strip reveal">
+  <!-- ✏️ EDIT: Change numbers and labels each week -->
+  <div class="neu-stat" onclick="blast(event,'#a855f7');anim(this,'a-bounce')">
+    <div class="neu-num" style="color:var(--c6)">₹117Cr</div>
+    <div class="neu-label">Recode IPO</div>
+  </div>
+  <div class="neu-stat" onclick="blast(event,'#ff003c');anim(this,'a-wobble')">
+    <div class="neu-num" style="color:var(--c1)">72K ⭐</div>
+    <div class="neu-label">GitHub Stars</div>
+  </div>
+  <div class="neu-stat" onclick="blast(event,'#00ff88');anim(this,'a-rubber')">
+    <div class="neu-num" style="color:var(--c4)">414</div>
+    <div class="neu-label">LPG Cylinders</div>
+  </div>
+  <div class="neu-stat" onclick="blast(event,'#ffe600');anim(this,'a-flash')">
+    <div class="neu-num" style="color:var(--c3)">₹19K</div>
+    <div class="neu-label">Fare Surge</div>
+  </div>
+  <div class="neu-stat" onclick="blast(event,'#00cfff');anim(this,'a-bounce')">
+    <div class="neu-num" style="color:var(--c5)">Apr 23</div>
+    <div class="neu-label">TN Election</div>
+  </div>
+</div>
+ 
+ 
+<!-- ══════════════════════════════════════════════════════════════
+     9 NEWS CARDS — EDIT EACH CARD'S content below
+     Fields to update per card:
+       data-tag  → category label
+       data-emoji → emoji for back side
+       <h3>      → headline
+       <p>       → article paragraph (shown on back)
+       <img src> → image URL or base64
+     The front shows headline + image.
+     Hover/tap the card to flip and read the full paragraph.
+══════════════════════════════════════════════════════════════ -->
+<div class="grid">
+ 
+  <!-- CARD 1 ✏️ -->
+  <article class="flip-card n1 reveal"
+    data-tag="POLITICS"
+    data-emoji=""
+    data-headline="TN Elections 2026: Stalin & Vijay File Nominations"
+    data-para="Actor-turned-politician Vijay has filed his nomination for the 2026 Tamil Nadu Assembly elections from Perambur and Tiruchi East constituencies as the president of Tamilaga Vettri Kazhagam. Meanwhile, Chief Minister M. K. Stalin filed from Kolathur, eyeing a fourth consecutive victory. Elections are set for April 23, 2026."
+    data-img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRANi2TZniHPhq_abMFI65aEJmJFAfCJL1vHQ&s"
+    onclick="blast(event,'#ff003c')">
+  </article>
+ 
+  <!-- CARD 2 ✏️ -->
+  <article class="flip-card n2 reveal"
+    data-tag="DIPLOMACY"
+    data-emoji="⛴️"
+    data-headline="Middle East Conflict Impacts Global Oil Supply"
+    data-para="The ongoing Middle East conflict has significantly disrupted global oil supply
+routes, especially through the Strait of Hormuz, a vital energy corridor. Recent
+reports highlight delays and restrictions in oil tanker movements, causing
+concern across global markets. Since nearly 20% of the world’s oil passes
+through this route, the disruption has created major supply uncertainty. Oil
+prices have become volatile, with upward trends driven by fears of shortages.
+Experts warn that prolonged tensions could push fuel prices higher and
+contribute to global inflation. The crisis is also affecting international trade and
+shipping operations. Several countries are assessing alternative supply
+strategies to manage risks.​"
+    data-img="data:image/jpeg;base64,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"
+    onclick="blast(event,'#00cfff')">
+  </article>
+ 
+  <!-- CARD 3 ✏️ -->
+  <article class="flip-card n3 reveal"
+    data-tag="TRAVEL"
+    data-emoji="✈️"
+    data-headline="Flight Fares Triple Ahead of Easter Long Weekend"
+    data-para="Flight fares from Chennai have nearly tripled ahead of the Good Friday–Easter weekend due to high demand. Routes like Hyderabad, Kochi, and Bengaluru have seen sharp price increases, with fares rising up to ₹19,000. Travel within Tamil Nadu has also become significantly more expensive."
+    data-img="https://via.placeholder.com/600x200/001a10/00ff88?text=Flight+Fare+Surge"
+    onclick="blast(event,'#00ff88')">
+  </article>
+ 
+  <!-- CARD 4 ✏️ -->
+  <article class="flip-card n4 reveal"
+    data-tag="FINANCE"
+    data-emoji="📈"
+    data-headline="Intellius Recode Files IPO Papers for ₹117 Crore"
+    data-para="Intellius Recode, a Chennai-based technology and digital automation company, filed for an IPO with SEBI on March 27. The IPO includes a ₹117 crore fresh issue and an offer-for-sale of 12.9 lakh shares. Promoters hold 86.84% stake. The company plans to use funds for digital worker development and sub-contracting costs."
+    data-img="https://via.placeholder.com/600x200/160028/a855f7?text=Recode+IPO"
+    onclick="blast(event,'#a855f7')">
+  </article>
+ 
+  <!-- CARD 5 ✏️ -->
+  <article class="flip-card n5 reveal"
+    data-tag="AI NEWS"
+    data-emoji="🔓"
+    data-headline="Claude Code Source Code Accidentally Exposed"
+    data-para="Anthropic accidentally exposed the full source code of its coding tool Claude Code due to a packaging oversight. Security researcher Chao Fan Shau discovered that a 60MB source map file (cli.js.map) included in the npm package allowed full reconstruction of the original TypeScript code — a serious mistake in a production release."
+    data-img="https://via.placeholder.com/600x200/1a0e00/ff6f00?text=Claude+Code+Leak"
+    onclick="blast(event,'#ff6f00')">
+  </article>
+ 
+  <!-- CARD 6 ✏️ -->
+  <article class="flip-card n6 reveal"
+    data-tag="OPEN SOURCE"
+    data-emoji="⭐"
+    data-headline="Claw Code Hits 72,000 GitHub Stars in Its First Days"
+    data-para="Claw Code is an open-source AI coding agent framework built in Python and Rust. It is a clean-room implementation focused on reconstructing and extending architectural patterns of AI coding agent harnesses — without tracking proprietary source code. The project serves as a foundation for open harness engineering research and AI-assisted software development."
+    data-img="https://via.placeholder.com/600x200/1a0018/ff0090?text=Claw+Code"
+    onclick="blast(event,'#ff0090')">
+  </article>
+ 
+  <!-- CARD 7 ✏️ -->
+  <article class="flip-card n7 reveal"
+    data-tag="CRIME"
+    data-emoji="🚨"
+    data-headline="Illegal LPG Racket Busted — 414 Cylinders Seized in Hyderabad"
+    data-para="In a major crackdown, the Commissioner's Task Force (Jubilee Hills Zone), along with Banjara Hills police, arrested 10 persons for illegally stocking and selling LPG cylinders at inflated prices. Officials seized 414 gas cylinders of various capacities, along with transportation vehicles. The seized property is estimated at Rs 21.88 lakh."
+    data-img="https://via.placeholder.com/600x200/1a1800/ffe600?text=LPG+Racket"
+    onclick="blast(event,'#ffe600')">
+  </article>
+ 
+  <!-- CARD 8 ✏️ -->
+  <article class="flip-card n8 reveal"
+    data-tag="SPORTS"
+    data-emoji="🏏"
+    data-headline="Yuvraj Apologises to Dhoni & Kapil Dev for Father's Remarks"
+    data-para="In a teaser released by Sports Tak, Yuvraj Singh acknowledged the issue and stated that he had told his father such comments were not appropriate. Yograj Singh has frequently criticized Dhoni over the years, particularly regarding Yuvraj's exclusion from the Indian team, but Yuvraj himself has largely stayed away from the controversy — until now."
+    data-img="https://via.placeholder.com/600x200/1a0800/ff4800?text=Yuvraj+%26+Dhoni"
+    onclick="blast(event,'#ff4800')">
+  </article>
+ 
+  <!-- CARD 9 ✏️ -->
+  <article class="flip-card n9 reveal"
+    data-tag="DID YOU KNOW?"
+    data-emoji="🧠"
+    data-headline="7 Mind-Blowing AI Facts You Should Know This Week"
+    data-para="The term 'Artificial Intelligence' was first coined in 1956 at the Dartmouth Conference. AI can now generate realistic human voices almost indistinguishable from real speech. AI helps doctors detect diseases earlier. AI algorithms power spam filters, recommendation systems, and navigation apps. AI-created artwork sold at auction for over $400,000. AI beats world champions at chess and Go. Claude is an advanced AI assistant focused on safety and accuracy."
+    data-img="https://via.placeholder.com/600x200/001a00/39ff14?text=AI+Facts"
+    onclick="blast(event,'#39ff14')">
+  </article>
+ 
+</div><!-- /grid -->
+ 
+ 
+<!-- ══════════════════════════════════════════════════════════════
+     BOTTOM ROW: QUIZ  +  WINNER
+══════════════════════════════════════════════════════════════ -->
+<div class="bottom-row">
+ 
+  <!-- QUIZ PANEL ✏️ -->
+  <div class="glass-panel reveal" onclick="fireworks(event)">
+    <div class="glass-inner">
+      <span class="quiz-badge">🎯 THIS WEEK'S QUIZ</span>
+ 
+      <!-- ✏️ EDIT: Change quiz question text -->
+      <div class="quiz-title">Which number replaces the question mark?</div>
+      <div class="quiz-question">Study the three circles and find the pattern.</div>
+ 
+      <!-- ✏️ EDIT: Replace this SVG with your own puzzle image if needed -->
+      <svg class="quiz-svg" width="100%" height="90" viewBox="0 0 300 90" style="margin-bottom:14px">
+        <!-- Circle 1 -->
+        <circle cx="50" cy="45" r="40" fill="none" stroke="#a855f7" stroke-width="2"/>
+        <line x1="10" y1="45" x2="90" y2="45" stroke="#a855f755" stroke-width="1"/>
+        <line x1="50" y1="5"  x2="50" y2="85" stroke="#a855f755" stroke-width="1"/>
+        <text x="30" y="32" font-size="13" fill="#a855f7">3</text><text x="63" y="32" font-size="13" fill="#a855f7">6</text>
+        <text x="22" y="55" font-size="13" fill="#a855f7">2</text><text x="68" y="55" font-size="13" fill="#a855f7">1</text>
+        <text x="30" y="76" font-size="13" fill="#a855f7">9</text><text x="63" y="76" font-size="13" fill="#a855f7">8</text>
+        <!-- Circle 2 -->
+        <circle cx="150" cy="45" r="40" fill="none" stroke="#ff0090" stroke-width="2"/>
+        <line x1="110" y1="45" x2="190" y2="45" stroke="#ff009055" stroke-width="1"/>
+        <line x1="150" y1="5"  x2="150" y2="85" stroke="#ff009055" stroke-width="1"/>
+        <text x="122" y="32" font-size="13" fill="#ff0090">2</text><text x="160" y="32" font-size="13" fill="#ff0090">9</text>
+        <text x="114" y="55" font-size="13" fill="#ff0090">2</text>
+        <text x="164" y="55" font-size="18" fill="#ffe600" font-weight="700">?</text>
+        <!-- Circle 3 -->
+        <circle cx="250" cy="45" r="40" fill="none" stroke="#00cfff" stroke-width="2"/>
+        <line x1="210" y1="45" x2="290" y2="45" stroke="#00cfff55" stroke-width="1"/>
+        <line x1="250" y1="5"  x2="250" y2="85" stroke="#00cfff55" stroke-width="1"/>
+        <text x="223" y="32" font-size="13" fill="#00cfff">4</text><text x="260" y="32" font-size="13" fill="#00cfff">4</text>
+        <text x="214" y="55" font-size="13" fill="#00cfff">1</text><text x="268" y="55" font-size="13" fill="#00cfff">3</text>
+        <text x="223" y="76" font-size="13" fill="#00cfff">7</text><text x="260" y="76" font-size="13" fill="#00cfff">2</text>
+      </svg>
+ 
+      <!-- ✏️ EDIT: Update last week's answer -->
+      <div class="quiz-last">Last Week's Answer: <span>9</span></div>
+      <div class="quiz-cta">⚡ Respond swiftly and top the leaderboard!</div>
+    </div>
+  </div>
+ 
+  <!-- WINNER PANEL ✏️ -->
+  <div class="glass-panel reveal" onclick="fireworks(event)">
+    <div class="glass-inner" style="text-align:center">
+      <span class="winner-badge">🏆 LAST WEEK'S WINNER</span>
+ 
+      <div class="winner-title">Quiz Champion</div>
+ 
+      <div class="winner-photo-wrap">
+        <div class="winner-photo-ring"></div>
+        <div class="winner-photo-mask"></div>
+ 
+        <!-- ✏️ EDIT: Replace src with actual winner photo URL or base64 -->
+        <!-- If no photo, delete the <img> and uncomment the <div class="winner-avatar"> -->
+        <img
+          class="winner-photo"
+          src="https://via.placeholder.com/130x130/111111/ffe600?text=👑"
+          alt="Winner photo"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="winner-avatar" style="display:none">🏆</div>
+      </div>
+ 
+      <!-- ✏️ EDIT: Winner name and department -->
+      <div class="winner-name">Suganthi</div>
+      <div class="winner-dept">QA Team</div>
+      <div class="winner-score">Answered in 4 minutes 🔥</div>
+ 
+      <button class="confetti-btn" onclick="fireworks(event);event.stopPropagation()">
+        🎆 Celebrate!
+      </button>
+    </div>
+  </div>
+ 
+</div><!-- /bottom-row -->
+ 
+ 
+<!-- ── FOOTER ──────────────────────────────────────────────────── -->
+<footer>
+  <!-- ✏️ EDIT: Update year/company if needed -->
+  © 2026 RECODE SOLUTIONS · WEEKLY NEWSLETTER · UNLOCKING INSIGHTS · UNLEASHING AI
+</footer>
+ 
+ 
+<!-- ================================================================
+     JAVASCRIPT — No need to edit this section
+================================================================ -->
+<script>
+/* ---- BUILD FLIP CARDS from data attributes ---- */
+document.querySelectorAll('.flip-card').forEach(card => {
+  const tag      = card.dataset.tag      || 'NEWS';
+  const emoji    = card.dataset.emoji    || '📰';
+  const headline = card.dataset.headline || 'Headline';
+  const para     = card.dataset.para     || 'Paragraph.';
+  const img      = card.dataset.img      || 'https://via.placeholder.com/600x200';
+ 
+  card.innerHTML = `
+    <div class="flip-inner">
+      <div class="flip-front">
+        <img class="card-img" src="${img}" alt="${headline}" loading="lazy"
+             onerror="this.style.background='#111';this.style.height='200px'">
+        <div class="card-body">
+          <span class="card-tag">${tag}</span>
+          <h3 class="card-title">${headline}</h3>
+        </div>
+      </div>
+      <div class="flip-back">
+        <div class="back-emoji">${emoji}</div>
+        <div class="back-title">${headline}</div>
+        <div class="back-text">${para}</div>
+        <button class="back-btn" onclick="event.stopPropagation()">Read Full Story →</button>
+      </div>
+    </div>`;
+});
+ 
+/* ---- TYPEWRITER ---- */
+const twEl = document.getElementById('tw');
+// ✏️ EDIT: Change these rotating headlines
+const phrases = [
+  "Breaking: TN Elections scheduled for April 23, 2026...",
+  "Recode files ₹117 Crore IPO with SEBI...",
+  "Claude Code source accidentally exposed in npm package...",
+  "Claw Code reaches 72,000 GitHub stars in days...",
+  "Hover cards to flip · Click stats to blast · Click quiz for fireworks!"
+];
+let pi=0, ci=0, deleting=false;
+function tw() {
+  const p = phrases[pi];
+  if (!deleting) {
+    twEl.textContent = p.slice(0, ci+1); ci++;
+    if (ci >= p.length) { deleting=true; setTimeout(tw, 2200); return; }
+  } else {
+    twEl.textContent = p.slice(0, ci-1); ci--;
+    if (ci <= 0) { deleting=false; pi=(pi+1)%phrases.length; }
+  }
+  setTimeout(tw, deleting ? 38 : 75);
+}
+tw();
+ 
+/* ---- ANIMATION TRIGGER ---- */
+function anim(el, cls) {
+  el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls);
+  el.addEventListener('animationend', () => el.classList.remove(cls), {once:true});
+}
+ 
+/* ---- BLAST RING ---- */
+function blast(e, color) {
+  e.stopPropagation && e.stopPropagation();
+  const b = document.createElement('div');
+  b.className = 'blast';
+  b.style.cssText = `left:${e.clientX}px;top:${e.clientY}px;background:${color}`;
+  document.body.appendChild(b);
+  setTimeout(() => b.remove(), 600);
+}
+ 
+/* ---- FIREWORKS ---- */
+const canvas = document.getElementById('fw-canvas');
+const ctx    = canvas.getContext('2d');
+function resize() { canvas.width=innerWidth; canvas.height=innerHeight; }
+resize(); window.addEventListener('resize', resize);
+ 
+const COLORS = ['#ff003c','#ff6f00','#ffe600','#00ff88','#00cfff','#a855f7','#ff0090','#fff','#39ff14'];
+let particles = [], running = false;
+ 
+function Spark(x, y) {
+  this.x=x; this.y=y;
+  this.vx=(Math.random()-.5)*14;
+  this.vy=(Math.random()-.5)*14 - 5;
+  this.alpha=1;
+  this.r=Math.random()*4+2;
+  this.col=COLORS[Math.floor(Math.random()*COLORS.length)];
+}
+ 
+function fireworks(e) {
+  const x = e.clientX || innerWidth/2;
+  const y = e.clientY || innerHeight/2;
+  for (let i=0;i<100;i++) particles.push(new Spark(x,y));
+  if (!running) loop();
+}
+ 
+function loop() {
+  running = true;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  particles = particles.filter(p => {
+    p.x+=p.vx; p.y+=p.vy; p.vy+=0.28; p.alpha-=0.018;
+    ctx.save(); ctx.globalAlpha=p.alpha; ctx.fillStyle=p.col;
+    ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fill(); ctx.restore();
+    return p.alpha>0;
+  });
+  if (particles.length) requestAnimationFrame(loop); else running=false;
+}
+ 
+/* ---- SCROLL REVEAL ---- */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
+ 

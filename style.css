@@ -1,0 +1,350 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f7fb;
+}
+
+/* HEADER */
+header {
+  background: white;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.logo-section h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* NAV */
+.nav-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background: #10b981;
+}
+
+.dark-btn {
+  padding: 6px 10px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+/* GRID */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.page {
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* CARD */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* IMAGE */
+.img-wrapper {
+  position: relative;
+}
+
+/* ===== NEWS IMAGE CLEAN ===== */
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Image styling */
+.img-wrapper img {
+  width: 100%;
+  height: 180px;              /* controls size */
+  object-fit: cover;          /* no stretch */
+  display: block;
+
+  transition: transform 0.4s ease;
+  image-rendering: auto;      /* improves clarity */
+}
+
+/* Hover zoom (professional touch) */
+.card:hover .img-wrapper img {
+  transform: scale(1.05);
+}
+
+/* TITLE OVERLAY */
+.overlay-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+/* ===== OVERLAY ===== */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ===== POPUP ===== */
+.popup {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  z-index: 1001;
+}
+
+.popup.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ===== CONTENT BOX ===== */
+.popup-content {
+  background: white;
+  width: 60%;
+  max-width: 700px;
+  border-radius: 14px;
+  padding: 20px;
+
+  transform: translateY(40px);
+  transition: 0.3s ease;
+}
+
+.popup.show .popup-content {
+  transform: translateY(0);
+}
+
+/* ===== IMAGE ===== */
+.popup-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* ===== TITLE ===== */
+.popup-title {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #ef4444;
+}
+
+/* ===== TEXT ===== */
+.popup-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* ===== CLOSE BUTTON ===== */
+.close {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.close:hover {
+  color: red;
+}
+
+/* ===== NAV BUTTONS ===== */
+.navBtns {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.navBtns button {
+  margin: 5px;
+  padding: 6px 12px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ===== DARK MODE BASE ===== */
+.dark-mode {
+  background: #0f172a;
+  color: white;
+}
+
+/* Header */
+.dark-mode header {
+  background: #111827;
+  border-bottom: 1px solid #374151;
+}
+
+/* Cards */
+.dark-mode .card {
+  background: #1e293b;
+}
+
+/* Popup */
+.dark-mode .popup-content {
+  background: #1e293b;
+  color: white;
+}
+
+/* Text */
+.dark-mode .popup-text {
+  color: #cbd5f5;
+}
+
+/* Buttons */
+.dark-mode .nav-btn {
+  background: #2563eb;
+}
+
+.dark-mode .dark-btn {
+  background: #374151;
+}
+
+/* ===== DARK MODE NEWS TITLE ===== */
+.dark-mode .overlay-title {
+  color: #ef4444;   /* red color */
+}
+
+/* Overlay */
+.dark-mode .overlay {
+  background: rgba(0,0,0,0.7);
+}
+
+/* ===== CONTAINER ===== */
+.flip-container.stagger {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 25px;
+}
+
+/* ===== STAGGER EFFECT ===== */
+.flip-card:nth-child(2) {
+  transform: translateY(20px);
+}
+.flip-card:nth-child(4) {
+  transform: translateY(20px);
+}
+
+/* ===== CARD ===== */
+.flip-card {
+  perspective: 1000px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.flip-card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+/* ===== INNER ===== */
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+/* FLIP */
+.flip-card.flip .flip-inner {
+  transform: rotateY(180deg);
+}
+
+/* ===== FRONT & BACK ===== */
+.flip-front,
+.flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 14px;
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+
+  backface-visibility: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* FRONT (gradient) */
+.flip-front {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  color: white;
+  font-size: 18px;
+}
+
+/* BACK (soft green) */
+.flip-back {
+  background: linear-gradient(135deg, #10b981, #047857);
+  color: white;
+  transform: rotateY(180deg);
+  font-size: 14px;
+  line-height: 1.4;
+}

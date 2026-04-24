@@ -1,0 +1,66 @@
+{
+  "news": [
+    {
+      "title": "U.S.–Iran Tensions & Global Shipping Crisis",
+      "text": "The United States imposed a naval blockade on Iran, restricting its oil exports.In response, Iran tightened control over the Strait of Hormuz, creating risks for global shipping. Several ships, including India-linked vessels, faced delays, rerouting, or interception. A temporary ceasefire exists, but both sides continue aggressive actions, keeping tensions high. This has led to rising oil prices and global economic uncertainty. The situation remains unstable, with constant risk of escalation despite ongoing diplomatic efforts. Any further disruption in the Strait of Hormuz could significantly impact global oil supply and trade.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "2026 Tamil Nadu Legislative Assembly election",
+      "text": "It was held in a single phase across 234 constituencies.Voter turnout crossed 85%, one of the highest in the state’s history, showing strong public participation. The contest was intense between major parties like Dravida Munnetra Kazhagam and All India Anna Dravida Munnetra Kazhagam, along with Bharatiya Janata Party and new entrants.Campaigns focused on welfare schemes, jobs, and economic development, influencing voters across urban and rural areas. High voter turnout has made the outcome highly competitive and unpredictable.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Indian Railways Accelerates Modernization with Major Expansion Plans",
+      "text": "Indian Railways announced a fresh push toward modernization and expansion of its network during this period. The focus is on upgrading tracks, improving station infrastructure, and introducing faster and safer train services. Projects also include electrification of routes and expansion of freight corridors to boost efficiency. The government aims to enhance connectivity between major cities and rural areas and support economic growth.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Brazil Battled by Floods After Torrential Rains Lash Regions",
+      "text": "Heavy rains in Brazil caused severe flooding in several regions. Thousands of people were displaced due to the disaster. Emergency teams carried out rescue and relief operations. Authorities warned of continued rainfall and possible damage. Authorities also warned of continued risks of landslides and further flooding due to saturated soil. The situation highlighted the impact of extreme weather events on vulnerable communities.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "Tragic Explosion at Firecracker Unit Leaves 25 Dead in Virudhunagar",
+      "text": "A major explosion at a firecracker factory in Virudhunagar district killed around 25 people, raising serious safety concerns. Many workers, including women, were inside when the blast occurred. The incident caused massive destruction to nearby areas. Authorities have launched an investigation into safety violations and negligence.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Heatwave Grips North India, IMD Issues Widespread Alerts",
+      "text": "India experienced a severe heatwave with temperatures rising above 40–45°C in many northern and central states. The India Meteorological Department issued alerts across regions like Delhi, Rajasthan, Uttar Pradesh, and Madhya Pradesh. Several cities ranked among the hottest in the world, highlighting the intensity of the heat. The extreme weather increased risks of heatstroke, dehydration, and health emergencies, especially for outdoor workers. States also reported high electricity demand and public advisories, urging people to stay indoors and stay hydrated.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Skywatchers Witness Spectacular Lyrid Meteor Display",
+      "text": "The Lyrid meteor shower peaked between April 21 and 22, attracting skywatchers worldwide. It is one of the oldest known meteor showers, recorded for over 2,500 years. Around 10–20 meteors per hour were visible under clear skies. The event was widely observed in India and other countries.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "IPL Heats Up with High Scores and Dominant Performances",
+      "text": "The IPL saw several high-scoring and one-sided matches during this period. Teams like Sunrisers Hyderabad and Punjab Kings posted massive totals above 240 runs. Mumbai Indians and Chennai Super Kings recorded dominant wins with big margins. Close chases and strong batting performances made the week exciting for fans. Overall, it was a high-scoring and competitive phase of the tournament.",
+      "img": "images/news8.jpg"
+    },
+	{
+      "title": "The billion-dollar startup with a different idea for AI",
+      "text": "Yann LeCun, former Meta AI chief, has launched AMI Labs with a new approach to artificial intelligence. Instead of large language models, he proposes modular AI systems designed for specific tasks. These systems include components like world models, actors, critics, and perception modules. The approach aims to reduce cost, improve efficiency, and require less computing power. AMI Labs’ vision could offer a scalable and practical alternative to today’s resource-heavy AI models.",
+      "img": "images/news9.jpg"
+    }
+    
+  ],
+
+ "didYouKnow": [
+  { "title": "GPT-4 Parameters", "content": "GPT-4 is estimated to have over 1 trillion parameters — roughly 500x more than the human brain has synapses actively firing at once." },
+  { "title": "AI Energy Use", "content": "A single ChatGPT query uses nearly 10x more electricity than a standard Google search, raising major concerns about AI's carbon footprint." },
+  { "title": "AlphaFold Breakthrough", "content": "Google DeepMind's AlphaFold solved a 50-year-old biology problem — predicting protein structures — in just 18 months, accelerating drug discovery by decades." },
+  { "title": "AI Eyes", "content": "AI can now detect early signs of Parkinson's disease, cancer, and diabetes from a simple eye scan — years before any physical symptoms appear." },
+  { "title": "Speed of Learning", "content": "It took humans 10,000 years to master chess. AlphaZero taught itself to beat every world champion — human and AI — in just 4 hours with zero prior knowledge." }
+
+],
+  "winner": {
+    "name": "Sandhiya Suresh",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+ }
+
+
+}

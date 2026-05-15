@@ -1,0 +1,67 @@
+{
+  "news": [
+    {
+      "title": "U.S.–China High-Level Summit in Beijing ",
+      "text": "The U.S.–China High-Level Summit in Beijing is a diplomatic meeting between leaders of the United States and China to discuss major global issues. Key topics usually include trade relations, technology restrictions, military tensions, and regional security concerns like Taiwan. The goal is to reduce friction between the two biggest economies and avoid conflicts that could affect the global economy. Such meetings are closely watched because their decisions can impact markets, politics, and international stability worldwide.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "Global Energy & Iran-Linked Tensions",
+      "text": "Global energy markets are under pressure due to rising tensions in the Middle East, especially around key oil shipping routes like the Strait of Hormuz.Any disruption in this region raises fears of oil supply shortages because a large share of the world’s crude oil passes through it. As a result, oil prices are volatile and energy security has become a major global concern. Countries are closely watching the situation to prevent further escalation that could impact inflation and the global economy.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "India’s Global Diplomatic Visit",
+      "text": "India’s Prime Minister is on a multi-country diplomatic tour to strengthen international relations. The visit focuses on boosting trade, energy cooperation, and investment partnerships with key nations. It also aims to deepen strategic ties in areas like technology, defense, and global security. Overall, the tour is meant to improve India’s global influence and economic collaboration.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Climate Emergency Alerts",
+      "text": "Global climate agencies and scientists reported increased warnings about worsening extreme weather conditions worldwide. Key concerns included rising global temperatures, stronger heatwaves, and higher risks of wildfires and floods linked to climate change patterns like El Niño. Experts said these conditions could intensify in the coming months, affecting agriculture, water supply, and public health. The alerts highlight growing urgency for countries to cut emissions and adapt to rapid environmental changes.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "AI Breakthrough: Meta prepares new “agentic AI assistant”",
+      "text": "Meta is building an AI system that can perform tasks for users instead of just answering questions, like planning, messaging, and managing activities. This is partof the global shift toward “agentic AI,” where AI systems act more independently. The assistant is expected to work across Meta platforms like social media and messaging apps. Experts say this could change how people interact with everyday digital services.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "FIFA 2026 World Cup Preparations Enter Final Phase ",
+      "text": "FIFA was in the final preparation stage for the 2026 World Cup during mid-may.Organizers were working on stadiums, logistics, and security across the three host countries. Teams were completing qualification and final squad preparations.The tournament was generating global excitement due to its expanded format.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Major Political Activity After New Government Formation",
+      "text": "After the formation of the new Tamil Nadu government, the early period saw routine administrative and political activities as the assembly began functioning.The government moved to organize cabinet responsibilities and outline initial policy directions, while opposition parties reviewed and responded to early decisions. Discussions in the assembly focused on governance priorities, public welfare measures, and implementation of election promises. Overall, the phase reflected the normal transition period where both ruling, and opposition parties adjust to the new political setup.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "Dearness Allowance (DA) Hike for Government Staff ",
+      "text": "On May 14, the Tamil Nadu government announced an increase in Dearness Allowance (DA) for government employees and teachers. The DA was raised by 2%,aimed at adjusting salaries in line with inflation and rising living costs. The decision impacts a large number of state government staff across departments. Reactions were mixed, with employees welcoming the hike while some discussions focused on its fiscal impact on the state budget.",
+      "img": "images/news8.jpg"
+    },
+	{
+      "title": "NEET-UG 2026 Exam Cancellation and Re-Test Announcement",
+      "text": "NEET-UG 2026 faced major controversy due to allegations of question paper leak and exam irregularities, causing concern among students and parents nationwide. Following the reports, authorities cancelled the exam and announced a re-examination scheduled for June 21, 2026. Investigations are underway to determine how the breach occurred and to strengthen exam security measures.",
+      "img": "images/news9.jpg"
+    }
+    
+  ],
+
+ "didYouKnow": [
+  {"title": "$200M AI partnership", "content": "Anthropic and the Bill & Melinda Gates Foundation announced a $200 million, 4-year partnership foucsed on AI for healthcare , education etc,." },
+  { "title": "New GEMINI ", "content": "Google is preparing a new generation of its Gemini AI models around Google I/O.." },
+  { "title": "$1 trillion", "content": "Anthropic is reportedly discussing a massive funding round that could value the company close to $900B–$1T." },
+  { "title": " Expanding monetization with ChatGPTads", "content": " OpenAI reportedly launched or expanded a self-serve advertising platform for ChatGPT." },
+  { "title": "AI guardrails", "content": "The U.S. and China are reportedly discussing international “guardrails” for advanced AI systems. " }
+
+
+],
+  "winner": {
+    "name": "Boopathi",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+ }
+
+
+}

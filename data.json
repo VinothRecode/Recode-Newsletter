@@ -1,0 +1,82 @@
+{
+  "news": [
+    {
+      "title": "Global Security Concerns Continue to Rise",
+      "text": "International discussions remained focused on Middle East tensions and global energy security. Several countries increased diplomatic talks to avoid further conflicts affecting oil transportation routes. Global markets closely monitored crude oil prices and shipping activities. Experts warned that prolonged instability could impact worldwide trade and fuel prices.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "Global AI Race Grows as Tech Companies Expand AI and Automation Worldwide",
+      "text": "Major technology companies continued expanding investments in Artificial Intelligence and automation technologies. Several global firms announced new AI-powered tools for business, healthcare, and education sectors. Experts believe AI adoption will significantly reshape global employment and digital services. Governments are also discussing new regulations to ensure responsible AI usage worldwide.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Global Leaders Focus on Economy and Climate Challenges Worldwide",
+      "text": "Countries across Europe, Asia, and America discussed rising inflation and climate-related challenges. Global leaders emphasized renewable energy investments and sustainable economic growth strategies. Extreme weather conditions in several regions increased concerns about environmental changes. Financial experts warned that global uncertainties could affect international markets in coming months.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Cybersecurity Alerts Rise as Global Digital Threats Continue Growing",
+      "text": "Technology experts reported a rise in phishing attacks and ransomware activities worldwide. Organizations strengthened cybersecurity monitoring to protect sensitive customer and financial data. Many businesses started upgrading cloud and network security infrastructure. Governments advised citizens to stay alert against online fraud and fake digital communications.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "Humanoid Robots Gain Global Attention in Healthcare and Daily Life",
+      "text": "Advanced humanoid robots are increasingly being tested in customer service and healthcare industries. Companies demonstrated robots capable of assisting elderly people and handling repetitive office tasks. Technology analysts predict robotics will become common in homes and workplaces within the next decade.The rapid growth of robotics has also triggered debates regarding ethics and employment impacts.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Tamil Nadu CM Vijay Meets PM Modi During First Official Delhi Visit",
+      "text": "Tamil Nadu Chief Minister Vijay met Prime Minister Narendra Modi in New Delhi during his first official visit after taking office. Important topics including the Mekedatu dam project and Tamil anthem concerns were discussed during the meeting. The visit gained major political attention across India and Tamil Nadu. The meeting is considered significant for future Centre–State relations.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Tamil Nadu Election Results 2026 split issue",
+      "text": "AIADMK leaders announced that internal party differences were being resolved peacefully. At the same time, former BJP Tamil Nadu chief K. Annamalai opposed the revised CBSE language policy. The issue sparked fresh political debate regarding language identity in Tamil Nadu. Political analysts described it as an important regional development ahead of future elections.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "India to Host Major International Athletics Event",
+      "text": "Bhubaneswar was officially selected to host the 2028 Asian Indoor Athletics Championships. The announcement strengthened India’s growing reputation in international sports infrastructure. Odisha continues to emerge as a major sporting destination in Asia. Experts believe the event will boost tourism, employment, and global recognition for Indian sports",
+      "img": "images/news8.jpg"
+    },
+	{
+      "title": "IPL 2026 Playoffs Create Massive Excitement",
+      "text": "IPL 2026 entered its crucial playoff stage with fans eagerly awaiting the grand finale. Social media was filled with discussions about team strategies and star player performances. Meanwhile, the Sports Ministry introduced new governance rules for Indian sports bodies. The reforms aim to improve transparency and administration in Indian sports. ",
+      "img": "images/news9.jpg"
+    }
+    
+  ],
+
+ "didYouKnow": [
+  {
+    "title": "Brain Power",
+    "content": "Your brain generates enough electricity to power a small LED light."
+  },
+  {
+    "title": "Water Wonders",
+    "content": "Hot water can actually freeze faster than cold water under certain conditions.It's called the Mpemba Effect!"
+  },
+  {
+    "title": "Animal Facts",
+    "content": "Chameleons can move their eyes independently in two different directions at the same time."
+  },
+  {
+    "title": "Sweet Fact",
+    "content": "Honey never spoils! Archaeologists have found edible honey in ancient Egyptian tombs that's over 3,000 years old."
+  },
+  {
+    "title": "Earth Fact",
+    "content": "Earth is the only planet not named after a god in our solar system."
+  }
+
+
+],
+  "winner": {
+    "name": "Sumathi",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+ }
+
+
+}

@@ -1,0 +1,82 @@
+{
+  "news": [
+    {
+      "title": "SpaceX Raises Record $75 Billion Ahead of Historic Stock Market Debut",
+      "text": "Elon Musk's SpaceX has raised a record $75 billion in its IPO, valuing the company at nearly $1.8 trillion. Shares are priced at $135 and will begin trading on Nasdaq, making SpaceX one of the world's most valuable public companies. Strong investor demand has fuelled optimism, with analysts expecting the stock to rise further. The landmark IPO could pave the way for future listings by major AI and tech firms.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "AI to Accelerate Lung Cancer Diagnosis Across NHS England",
+      "text": "AI is being introduced across NHS hospitals in England to help detect lung cancer faster and improve patient outcomes. Acting as a second pair of eyes for radiologists, it can prioritize urgent X-rays and identify potential abnormalities. The technology has already helped over 4 million patients and reduced scan analysis times from eight days to four. Officials say AI will support clinicians, enabling earlier diagnosis, faster treatment, and better survival rates.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Trump Claims Iran Peace Deal Near, Tehran Says Talks Not Finalized",
+      "text": "US President Donald Trump said a deal to end the conflict with Iran is close, claiming key terms have been agreed and could be finalized within days. However, Iran's foreign ministry dismissed reports of a completed agreement, stating that nothing has been finalized and negotiations are still ongoing. The proposed deal focuses on preventing Iran from developing nuclear weapons and reopening the Strait of Hormuz. Despite optimism from Washington, both sides continue to exchange warnings and military actions, while global leaders urge de-escalation. The uncertainty has kept tensions high across the Middle East.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Tamil Nadu Unveils ₹134.83 Crore Kuruvai Relief Package for Farmers",
+      "text": "Tamil Nadu Chief Minister C. Joseph Vijay has announced a ₹134.83 crore Kuruvai Special Package to support paddy farmers amid delayed monsoon rains and low water levels in the Mettur Dam. The package aims to protect farmers' livelihoods, encourage cultivation, and improve water management across delta and non-delta regions. The government has also ensured adequate stocks of seeds and fertilizers, completed major desilting works, and promised 18 hours of uninterrupted three-phase power supply. The initiative is expected to boost farm income and strengthen the State’s food security.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "CM Vijay Calls for Cooperative Federalism, Seeks Greater Support for Tamil Nadu ",
+      "text": "At the NITI Aayog Governing Council meeting, Tamil Nadu Chief Minister C. Joseph Vijay reaffirmed the State’s commitment to working constructively with the Centre while safeguarding Tamil Nadu’s interests. He emphasized cooperative federalism, sought the release of pending education funds, opposed NEET, and requested support for key infrastructure, healthcare, and employment initiatives. Vijay also proposed a second AIIMS in Coimbatore, enhanced protection for fishermen, and recognition of Thirukkural as India’s National Literature. He reiterated Tamil Nadu’s goal of becoming a $1.5 trillion economy by 2036.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Supreme Court Recognizes Homemakers as ‘Nation Builders",
+      "text": "The Supreme Court has ruled that the unpaid domestic work of homemakers should be valued at a minimum of ₹30,000 per month while calculating compensation in road accident death cases. Calling homemakers “nation builders,” the Court emphasized the economic value of household and caregiving responsibilities. The ruling came while enhancing compensation in a motor accident case involving a Punjab woman who died in 2001. The judgment is being seen as a significant step toward recognizing and valuing unpaid domestic work.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Alexander Zverev Wins First Grand Slam Title at French Open 2026",
+      "text": "Alexander Zverev captured his maiden Grand Slam title by defeating Flavio Cobolli in a thrilling five-set French Open final, 6-1, 4-6, 6-4, 6-7(5), 6-1. The German second seed showcased strong serving and resilience to overcome a determined challenge from Cobolli at Stade Roland-Garros. After three previous Grand Slam final defeats, Zverev finally secured his first major singles championship, marking a significant milestone in his career.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "FIFA World Cup 2026 Kicks Off with Mexico’s Dominance and South Korea’s Comeback Heroics ",
+      "text": "Host nation Mexico opened its FIFA World Cup 2026 campaign with a comfortable 2-0 victory over South Africa at Estadio Azteca. Julián Quiñones scored the tournament's first goal, while South Africa finished the match with only nine players after two red cards. In the day's other fixture, South Korea came from behind to defeat Czechia 2-1. The comeback win earned South Korea three crucial points and capped an action-packed opening day of the tournament.",
+      "img": "images/news8.jpg"
+    },
+	{
+      "title": "FIFA World Cup 2026: More Than Just a Football Tournament ",
+      "text": "FIFA World Cup 2026 is shaping up to be one of the most politically and economically significant tournaments ever. Co-hosted by the US, Canada, and Mexico amid trade tensions and global conflicts, the event extends far beyond football. The tournament is expected to have a notable impact on diplomacy, energy markets, and the global economy. Experts see it as a unique convergence of sports, politics, and international business.",
+      "img": "images/news9.jpg"
+    }
+    
+  ],
+
+ "didYouKnow": [
+  {
+    "title": "Human body",
+    "content": "Every second, your body produces about 25 million new cells."
+  },
+  {
+    "title": "octopus",
+    "content": "An octopus has three hearts.That's three times the chance of heartbreak. "
+  },
+  {
+    "title": "Giraffes Productivity",
+    "content": "Giraffes only need 5–30 minutes of sleep per day.Imagine being that productive"
+  },
+  {
+    "title": "Dreams",
+    "content": "Many famous discoveries were inspired by dreams, including the structure of the benzene molecule and parts of the periodic table."
+  },
+  {
+    "title": "Flowers communication",
+    "content": "Flowers can communicate with pollinators using ultraviolet patterns that are invisible to the human eye."
+  }
+
+
+],
+  "winner": {
+    "name": "No winner",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+ }
+
+
+}

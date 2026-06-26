@@ -1,0 +1,83 @@
+{
+  "news": [
+    {
+      "title": "Powerful Twin Earthquakes Rock Venezuela, Killing Dozens ",
+      "text": "Venezuela was struck by two powerful earthquakes on 24–25 June 2026. The first measured about 7.2 magnitude, followed roughly 39 seconds later by a stronger 7.5 magnitude earthquake. The epicenter was near the coastal city of Morón, west of the capital, Caracas. Death toll: At least 235 people have been confirmed dead. Injured: More than 1,500 people have been injured. Missing/Trapped: Hundreds remain trapped under collapsed buildings, and search teams continue rescue operations. Mexico, Colombia, Spain, France, Italy, Ecuador, and Panama have sent rescue teams, medical personnel, and relief supplies.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "BEIJING, CHINA - Striding AI Announces Next-Generation Robotics Platform",
+      "text": "China-based Striding AI announced plans to develop advanced robotic foundation models for physical AI. The goal is to enable robots to perceive, reason, act, and learn from real-world interactions. Initial deployments will focus on retail, including inventory management and shelf restocking. The company plans to expand into healthcare, logistics, agriculture, food services, and telecommunications.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Europe Experiences Record-Breaking Heatwave",
+      "text": "Europe is facing one of its most severe June heatwaves on record. The UK and France have recorded their highest-ever June temperatures, while Italy, Spain, Germany, and the Netherlands have issued heat alerts. France has temporarily shut down some nuclear reactors because river water used for cooling has become too warm. Authorities have urged people to stay indoors as hospitals report a rise in heat-related illnesses.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Amazon Expands AI Infrastructure in India ",
+      "text": "Amazon announced an additional $13 billion investment in India to expand its AI and cloud infrastructure. The company said the investment will support new data centres, AI services, cloud computing capacity, and logistics expansion across the country. This is part of Amazon's broader plan to strengthen its position in the global AI race. This initiative will boost India's AI ecosystem and further strengthen its position as a global AI hub. Amazon’s cumulative investments in India from 2010-2030 stand at over $88 billion.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "India’s Goyal to visit UK ahead of trade deal implementation",
+      "text": "NEW DELHI, June 24 - India’s Trade Minister Piyush Goyal will visit the United Kingdom between June 25 and 27 for talks ahead of the rollout of the India-UK trade agreement on July 15, the government said on Wednesday.He is scheduled to meet UK Business and Trade Secretary Peter Kyle to discuss implementation issues, including tariff cuts, regulatory coordination and mechanisms to ease trade and mobility of professionals, the statement said.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "IMD Issues Heavy Rain Alert Across India as Monsoon Advances ",
+      "text": "The India Meteorological Department (IMD) has issued heavy rainfall warnings for several states after the Southwest Monsoon made significant progress across the country. More than 15 districts are under heavy rain alerts, while thunderstorms, strong winds, and localized flooding are expected in many regions. The Southwest Monsoon has advanced into:Gujarat , Madhya Pradesh , Maharashtra (including Mumbai) , Chhattisgarh Jharkhand, Bihar , and Parts of Uttar Pradesh.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Tamil Nadu CM Vijay flags off 300 new State buses, takes ride in one",
+      "text": "Tamil Nadu Chief Minister C. Joseph Vijay on Thursday flagged off 300 new buses of the Tamil Nadu State Transport Corporation (TNSTC), marking a major step towards strengthening the state's public transportation network. The CM inaugurated the fleet at a function held in Chennai, where senior ministers, transport department officials, and TNSTC representatives were present. ",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "Ecuador Stuns Germany 2–1 in Dramatic FIFA World Cup 2026 Comeback ",
+      "text": "In one of the biggest surprises of the FIFA World Cup 2026, Ecuador came from behind to defeat Germany 2–1 in their final Group G match on June 25, 2026. The victory secured Ecuador's place in the Round of 32 and marked one of the nation's greatest achievements in World Cup history.",
+      "img": "images/news8.jpg"
+    },
+	{
+      "title": "India Defeats China in Women's 4×100m Relay at Asian Relay Championships 2026 ",
+      "text": "India produced a stunning performance to win the gold medal in the Women's 4×100m relay at the Asian Relay Championships 2026, finishing ahead of China. This is one of India's biggest athletics victories of the year.",
+      "img": "images/news9.jpg"
+    }
+    
+
+  ],
+
+ "didYouKnow": [
+  {
+    "title": "koala",
+    "content": "The fingerprints of a koala are remarkably similar to those of humans and have reportedly confused forensic investigators. Even under a microscope, distinguishing between the two can be extremely difficult."
+  },
+  {
+    "title": "Football's penalty card system",
+    "content": "Football's red and yellow cards were inspired by traffic lights. Referee Ken Aston created the system after language barriers caused confusion during matches, using Yellow for caution and Red for stop, just like traffic signals. It was first used at the 1970 FIFA World Cup."
+  },
+  {
+    "title": "Mongolia",
+    "content": "It is one of the few countries in the world where horses outnumber people. With a human population of around 3.5 million and an estimated horse population of more than 4 million, horses remain an essential part of everyday life."
+  },
+  {
+    "title": "Kiribati",
+    "content": "It is the world's only country located in all four hemispheres—Northern, Southern, Eastern, and Western. Its islands are spread across the Equator and the 180° meridian, making it uniquely positioned on the globe."
+  },
+  {
+    "title": "Global AI regulation discussions intensify",
+    "content": "The U.S., EU, China, and other global leaders continued discussions on international AI governance, focusing on safety, transparency, and responsible AI deployment."
+  }
+
+
+],
+  "winner": {
+    "name": "Mohanakrishnan",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+ }
+
+
+}

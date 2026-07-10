@@ -1,0 +1,78 @@
+{
+  "news": [
+    {
+      "title": "US Launches Third Straight Day of Strikes in Iran",
+      "text": "The United States carried out a third consecutive day of military strikes targeting locations in Iran, including areas near Bushehr and Konarak. The strikes have significantly increased tensions in the Middle East and raised concerns over global energy security, as Bushehr hosts Iran's only civilian nuclear power plant.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "India Plans 29 International Sporting Events Ahead of 2036 Olympic Bid",
+      "text": "India announced plans to host 29 major international sporting events over the next two years to strengthen its bid to host the 2036 Olympic Games. The initiative aims to showcase India's sporting infrastructure and organizational capabilities while promoting sports development across the country.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Major League Baseball Partners with Suryakumar Yadav to Grow in India",
+      "text": "Major League Baseball (MLB) has appointed Indian cricket star Suryakumar Yadav as its ambassador in India. The partnership aims to introduce baseball to Indian audiences through digital content, fan engagement programs, and sports collaborations.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "IMD Issues Heavy Rain Alert Across Multiple States",
+      "text": "The India Meteorological Department (IMD) issued heavy rainfall warnings for several states, including Tamil Nadu, Karnataka, Maharashtra, Gujarat, Delhi, and Uttar Pradesh. Authorities have advised residents to remain cautious due to the possibility of flooding, thunderstorms, and strong winds.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "India and Australia Launch New Sports Cooperation Roadmap",
+      "text": "Prime Minister Narendra Modi and Australian Prime Minister Anthony Albanese announced a new sports collaboration roadmap aimed at strengthening ties between the two nations. As part of the initiative, the opening match of the Big Bash League 2026-27 season will be played in Chennai.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Tamil Nadu CM Vijay Announces Memorial for Karur Stampede Victims",
+      "text": "Tamil Nadu Chief Minister C. Joseph Vijay announced the construction of a memorial for the victims of the Karur stampede. He also distributed compassionate appointment orders to affected families and reiterated the government's commitment to supporting them.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Chennai to Host Historic Big Bash League Opener",
+      "text": "For the first time in history, the opening match of Australia's Big Bash Cricket League will be played outside Australia, with Chennai selected as the host city for the 2026-27 season opener. The event highlights Chennai's growing importance in global cricket and sports diplomacy.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "Europe Continues to Battle Extreme Summer Heat",
+      "text": "Several European nations continue to experience severe heatwave conditions, with temperatures crossing historic averages. Governments have issued health advisories and emergency measures to protect vulnerable populations from heat-related illnesses.",
+      "img": "images/news8.jpg"
+    },
+    {
+      "title": "India Strengthens Position as a Global AI and Digital Innovation Hub",
+      "text": "India's rapid growth in artificial intelligence, cloud computing, and digital infrastructure continues to attract global investments. Technology companies are expanding their presence in the country, reinforcing India's position as one of the world's fastest-growing digital economies.",
+      "img": "images/news9.jpg"
+    }
+  ],
+
+  "didYouKnow": [
+    {
+      "title": "Olympic Rings",
+      "content": "The five Olympic rings represent the union of the five inhabited continents of the world and symbolize global friendship through sports."
+    },
+    {
+      "title": "Bushehr Nuclear Plant",
+      "content": "Bushehr, which has recently been in the news, is home to Iran's only civilian nuclear power plant and plays a significant role in the country's energy infrastructure."
+    },
+    {
+      "title": "Big Bash League in Chennai",
+      "content": "The 2026-27 Big Bash League opener in Chennai will be the first-ever BBL match played outside Australia, marking a historic moment in cricket collaboration between India and Australia."
+    },
+    {
+      "title": "India's Olympic Dream",
+      "content": "India is actively pursuing its bid to host the 2036 Olympic Games and plans to host dozens of international sporting events to demonstrate its readiness."
+    },
+    {
+      "title": "Heatwaves and Climate Change",
+      "content": "Scientists estimate that heatwaves are now occurring nearly five times more frequently than they did 50 years ago, largely due to global warming and climate change."
+    }
+  ],
+
+  "winner": {
+    "name": "Krishnakumar",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}

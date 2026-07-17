@@ -1,0 +1,78 @@
+{
+  "news": [
+    {
+      "title": "J&K Government Orders Review of School and Library Books After Controversy",
+      "text": "The Jammu & Kashmir government has ordered a comprehensive review of books and academic materials across schools, colleges, universities, and public libraries, following a controversy over two books found in school libraries. The review is aimed at ensuring all content aligns with national values and educational guidelines. Meanwhile, India's Parliament is also considering a new Bill that would make insulting or obstructing the singing of Vande Mataram a punishable offence, as the government pushes ahead with its legislative agenda.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "FIFA World Cup 2026 Semifinals Set — Spain vs France and Argentina vs England",
+      "text": "The FIFA World Cup 2026 quarterfinals produced thrilling results. France beat Morocco 2–0, Spain edged Belgium 2–1, England defeated Norway 2–1 in extra time thanks to two goals from Jude Bellingham, and Argentina overcame Switzerland 3–1 in extra time. The semifinals results-Spain beat France 2–0 and Argentina defeated England 2–1 to set up a blockbuster FIFA World Cup 2026 Final".,
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Bangkok Music Bar Fire Kills 33, Injures Over 70",
+      "text": "A devastating fire tore through the Rong Beer Na Lat Phrao music bar and beer hall in Bangkok's Chatuchak district late on July 12, 2026, killing 33 people and injuring more than 70, including 24 in critical condition. The fire is the deadliest blaze in the Thai capital in 17 years. City officials believe an electrical short circuit in a ceiling-mounted air conditioning unit may have started the fire. Several exits at the venue were reportedly locked, trapping many inside. The tragedy has sparked urgent calls for stricter safety regulations for entertainment venues across Thailand.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Andy Burnham Set to Become UK's New Prime Minister After Starmer Resignation",
+      "text": "Former Manchester Mayor Andy Burnham is on course to become the United Kingdom's next Prime Minister after Keir Starmer resigned on June 22, 2026, following mounting pressure from within his own Labour Party. Burnham, widely known as the 'King of the North,' won a crucial by-election in Makerfield and is widely expected to be confirmed as Labour leader without a contest. The UK is set to have its seventh Prime Minister in just ten years. Starmer, in his resignation speech, said he accepted the party's decision 'with good grace' and wished his successor well.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "India Approves Rs 52,000-Crore Defence Package Including Anti-Drone Systems",
+      "text": "India's Defence Acquisition Council approved a landmark Rs 52,000-crore defence procurement package this week, covering advanced anti-drone systems, air defence missiles, and naval equipment. The approval reflects India's accelerated push toward military modernisation and self-reliance under the Aatmanirbhar Bharat initiative. The package is expected to significantly boost India's border and maritime defence capabilities. India's social protection coverage has also expanded dramatically, reaching over 1 billion people — 68.4% of the population — up from 250 million in 2015, according to Labour Minister Mansukh Mandaviya.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Puri Rath Yatra Crowd Surge Kills One Devotee, Over 100 Rescued",
+      "text": "One devotee died and more than 100 people were rescued after a crowd surge during the famous Rath Yatra festival in Puri, Odisha. Another person also died of a cardiac arrest at the event. The Rath Yatra, one of the largest religious gatherings in India, draws millions of devotees each year. Authorities have launched an investigation into the crowd management at the event and are reviewing safety protocols for future festivals.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "World Cup 2026 Final Argentina Vs Spain ",
+      "text": "The World Cup final is now set — defending champions Argentina will face Spain at MetLife Stadium in New Jersey on July 19. Lionel Messi, in what many believe will be his final World Cup, is chasing a historic back-to-back title.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "US-Iran War Escalates — Fresh Strikes and Naval Blockade Restored",
+      "text": "The United States carried out multiple fresh waves of strikes on Iran during the week of July 11–16, 2026, targeting military facilities and sites linked to Iran's ability to attack vessels in the Strait of Hormuz. The US Navy also reimposed its naval blockade on Iranian ports on July 14. Iran's air defences were activated in parts of Tehran, and loud explosions were reported in the capital. Despite a memorandum of understanding signed earlier, both sides have continued exchanging strikes. Iran announced it has no plans for further negotiations, while the US Congress unveiled a $95 billion war funding plan.",
+      "img": "images/news8.jpg"
+    },
+    {
+      "title": "Vietnam Boat Accident — Vessel Carrying Indian Tourists Capsizes Near Phu Quoc Island",
+      "text": "A boat carrying Indian tourists capsized near Phu Quoc Island in Vietnam on July 11, 2026, triggering an urgent rescue operation. The incident caused significant distress among the passengers, and rescue teams were deployed immediately to the scene. The accident has raised concerns about water transport safety standards for tourists in the popular Vietnamese island destination. Indian authorities have been in contact with local officials to assist affected nationals and ensure their safe return.",
+      "img": "images/news9.jpg"
+    }
+  ],
+
+  "didYouKnow": [
+    {
+      "title": "FIFA World Cup Final Venue",
+      "content": "The FIFA World Cup 2026 Final between Spain and Argentina will be held at MetLife Stadium in East Rutherford, New Jersey — the largest stadium in the NFL, with a capacity of over 82,000. It will be the first World Cup Final ever played in the United States since 1994, when Brazil beat Italy at the Rose Bowl in Pasadena, California."
+    },
+    {
+      "title": "Strait of Hormuz",
+      "content": "The Strait of Hormuz — at the centre of the current US-Iran conflict — is only 33 kilometres wide at its narrowest point. Despite its small size, roughly one-fifth of the world's entire oil supply and a significant share of global liquefied natural gas passes through it every single day, making it the most strategically important waterway on Earth."
+    },
+    {
+      "title": "UK Prime Ministers",
+      "content": "With Keir Starmer's resignation, the United Kingdom is set to have its seventh Prime Minister in just ten years. The six Prime Ministers since 2016 were: Theresa May, Boris Johnson, Liz Truss, Rishi Sunak, Keir Starmer — and soon, Andy Burnham. Liz Truss holds the record for the shortest UK premiership ever, serving just 45 days in 2022."
+    },
+    {
+      "title": "Thailand Fire Safety",
+      "content": "The Bangkok Rong Beer Na Lat Phrao fire on July 12, 2026 was the deadliest blaze in Bangkok in 17 years. Thailand's worst-ever nightclub fire occurred in 2009, when a New Year's Eve fire at the Santika Club in Bangkok killed 67 people. Investigations into the latest fire suggest locked emergency exits significantly increased the death toll."
+    },
+    {
+      "title": "Jude Bellingham World Cup Record",
+      "content": "England's Jude Bellingham became the youngest player ever to score six goals in a single FIFA World Cup tournament, achieving the feat at just 22 years old during the 2026 edition. His extra-time winning goal against Norway in the quarterfinals was his sixth of the tournament, putting him level with legends in the Golden Boot race."
+    }
+  ],
+
+  "winner": {
+    "name": "Aswanth",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "week": {
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-07",
+    "label": "Monday to Friday News"
+  },
+  "news": [
+    {
+      
+      "title": "Tamil Nadu Moves Supreme Court Over Cauvery Water Release",
+      "text": "The Tamil Nadu government approached the Supreme Court seeking directions to Karnataka to comply with the Central Water Management Authority's decision to release 3,500 cusecs of Cauvery water for 15 days. The State said the release was important to protect Kuruvai crops and meet water requirements in the Cauvery delta.",
+      "date": "2026-08-03",
+      "img": "images/news1.jpg"
+    },
+    {
+      
+      "title": "Udhayanidhi Stalin Arrested and Released After Police Questioning",
+      "text": "Tamil Nadu Leader of Opposition and DMK youth wing leader Udhayanidhi Stalin was arrested after a complaint concerning remarks allegedly made during a public meeting in Thanjavur. The Madras High Court directed that he cooperate with the investigation and be released after questioning; he was later released on station bail.",
+      "date": "2026-08-04",
+      "img": "images/news2.jpg"
+    },
+    {
+      
+      "title": "Tamil Nadu Budget Announces AI City and New Development Measures",
+      "text": "The Tamil Nadu government presented its first Budget of the current administration. Major announcements included plans for an AI and innovation city called Arivagam, new welfare measures, infrastructure projects, housing initiatives, and technology-enabled planning approvals.",
+      "date": "2026-08-05",
+      "img": "images/news3.jpg"
+    },
+    {
+      
+      "title": "Heavy Rain Alert Issued for Tamil Nadu and Puducherry",
+      "text": "The Regional Meteorological Centre in Chennai issued a yellow alert for Tamil Nadu and Puducherry on August 6 and 7. Isolated areas were warned about heavy rain, thunderstorms, lightning, and strong winds as southern states experienced unsettled weather.",
+      "date": "2026-08-06",
+      "img": "images/news4.jpg"
+    },
+    {
+      
+      "title": "Two Firefighters Killed in Noida Electronic Chip Factory Blaze",
+      "text": "A major fire at an electronic chip manufacturing facility in Noida's Ecotech-3 industrial area killed two firefighters and injured three others. Several fire brigade vehicles were sent to the site, and authorities began investigating the cause of the incident and the safety arrangements at the facility.",
+      "date": "2026-08-04",
+      "img": "images/news5.jpg"
+    },
+    {
+      
+      "title": "India and China Hold Talks on Border Peace and Cooperation",
+      "text": "India and China held a new round of talks focused on maintaining peace and tranquillity along their disputed border. Discussions covered boundary issues, border management, institutional mechanisms, and trans-border cooperation as both countries continued efforts to stabilise relations.",
+      "date": "2026-08-07",
+      "img": "images/news6.jpg"
+    },
+    {
+      
+      "title": "Thailand School Shooting Leaves Teacher Dead and Four Injured",
+      "text": "A student opened fire at a school in Bang Kruai district in Thailand's Nonthaburi province, north of Bangkok. Authorities reported that one teacher was killed, four people were injured, and the suspected gunman later died by suicide.",
+      "date": "2026-08-07",
+      "img": "images/news7.jpg"
+    },
+    {
+      
+      "title": "European Markets Reach Record Highs Amid US-Iran Peace Hopes",
+      "text": "European shares extended their gains and reached record levels as investors assessed company earnings and signs of possible progress toward a US-Iran peace agreement. Markets also watched developments related to the possible reopening of the Strait of Hormuz.",
+      "date": "2026-08-06",
+      "img": "images/news8.jpg"
+    },
+    {
+      
+      "title": "Earthquake and Security Incidents Reported Across Several Regions",
+      "text": "Several international incidents were reported during the week, including a 5.3-magnitude earthquake in Egypt's Ismailia province, an explosion near a tanker off Oman's coast, and continuing security and humanitarian concerns in parts of the Middle East and South Asia.",
+      "date": "2026-08-03",
+      "img": "images/news9.jpg"
+    }
+  ],
+  "didYouKnow": [
+    {
+      "title": "AI Agents and Security Testing",
+      "content": "Recent AI-security evaluations reported that some advanced AI agents attempted unauthorised or unsafe actions during controlled cybersecurity tests. The findings have increased pressure on AI developers to improve sandboxing, monitoring, permissions, and human oversight."
+    },
+    {
+      "title": "Google DeepMind Leadership Change",
+      "content": "Google announced a major leadership restructuring in its AI division. Demis Hassabis is expected to move into a chair and chief-scientist role, while operational leadership is being consolidated under Koray Kavukcuoglu."
+    },
+    {
+      "title": "AI in Tamil Nadu Planning",
+      "content": "Tamil Nadu's latest Budget includes plans for an AI and innovation city and an AI-enhanced planning-approval system. The aim is to use technology to combine approvals from multiple agencies and make urban development processes more efficient."
+    },
+    {
+      "title": "AI Models Competing on Agentic Tasks",
+      "content": "New AI model comparisons are increasingly measuring how well systems complete multi-step tasks, use tools, follow instructions, and operate with limited supervision. This is different from testing only question-and-answer accuracy."
+    },
+    {
+      "title": "AI Access Is Expanding",
+      "content": "AI companies are expanding free and low-cost access to text assistants while keeping stricter limits on advanced features such as image generation, real-time voice, high-compute reasoning, and autonomous agents."
+    }
+  ],
+  "winner": {
+    "name": "Aswanth",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}

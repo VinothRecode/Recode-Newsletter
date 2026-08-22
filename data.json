@@ -1,0 +1,92 @@
+{
+  "week": {
+    "start_date": "2026-08-17",
+    "end_date": "2026-08-22",
+    "label": "Monday to Friday News"
+  },
+  "news": [
+    {
+      "title": "CM Vijay Government's First Budget Focuses on Welfare, Infrastructure and Youth",
+      "text": "The Tamil Nadu government, led by Chief Minister C. Joseph Vijay, presented a landmark Budget this week that included major welfare schemes, infrastructure investments, and youth-focused initiatives. Key announcements covered housing for the poor, free electricity expansion, and several technology-enabled governance measures. The budget was hailed as a strong statement of the new TVK-led government's development priorities and received wide attention across the state.",
+      "date": "2026-08-18",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "PM Modi Inaugurates Rs 5,650 Crore Development Projects in Tamil Nadu",
+      "text": "Prime Minister Narendra Modi visited Tamil Nadu on August 17 and inaugurated and laid foundation stones for development projects worth Rs 5,650 crore. The initiatives are aimed at strengthening the state's infrastructure, including roads, ports, and urban development. The visit marked a significant moment in Centre-State cooperation and generated strong local interest ahead of continued implementation of major schemes across Tamil Nadu.",
+      "date": "2026-08-17",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Chennai Road Safety in Focus — 280 Deaths in Over 2,200 Accidents This Year",
+      "text": "Chennai Police Commissioner Amalraj reported that the city has recorded 280 fatalities across more than 2,200 road accidents so far in 2026. Separately, three people lost their lives in a road accident near Maduranthakam on the Tiruchi-Chennai Highway when a car was struck by a lorry. The data has renewed calls for stricter road safety enforcement, better infrastructure, and public awareness campaigns across the city.",
+      "date": "2026-08-20",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Four Arrested in Chennai for Rs 63 Lakh Gold Merchant Fraud",
+      "text": "Four individuals were arrested in Chennai for allegedly defrauding a gold merchant of Rs 63 lakh. Police investigations into the high-value fraud case are ongoing, with further arrests expected as the probe continues. The case has drawn attention to rising financial fraud targeting small business owners and traders in the city, prompting authorities to urge vigilance among the business community.",
+      "date": "2026-08-21",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "India's Gen Z 'Cockroach' Protest Movement Shakes Political Establishment",
+      "text": "Youth-led protests that swept across India last month, sparked by concerns over education policy and high unemployment, have continued to reverberate politically. The movement — named the 'Cockroach' protest after a government official compared unemployed youth to cockroaches — has alarmed the ruling BJP, which is now acknowledging it faces a serious challenge in connecting with younger voters. The protests have brought tens of thousands onto the streets in several cities.",
+      "date": "2026-08-18",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "India-China Border Talks Continue — Both Sides Discuss Peace and Cooperation",
+      "text": "India and China held a new round of diplomatic talks this week focused on maintaining peace and stability along their disputed border. The discussions covered boundary management, institutional mechanisms, and trans-border cooperation. Both sides expressed a commitment to continued dialogue, with officials describing the talks as constructive. The engagement reflects ongoing efforts by both nations to keep bilateral relations stable amid broader geopolitical tensions.",
+      "date": "2026-08-20",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Sword Attack at Sweden School Leaves One Dead and Two Seriously Injured",
+      "text": "An 18-year-old man carried out a sword attack at a school in Fagersta, a town in central Sweden, on August 22, 2026. One person was killed and at least two others were seriously injured before the attacker was arrested. Swedish Police Chief Tommy Alriksson confirmed the arrest and said investigations were underway. The attack shocked the country and reignited discussions about school security and youth violence across Scandinavia.",
+      "date": "2026-08-22",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "US Declares Economic Warfare on Iran — Toughest Sanctions in History Announced",
+      "text": "US Treasury Secretary Scott Bessent announced this week that the United States will impose the toughest sanctions in history on Iran and its global trading partners. President Trump declared economic warfare on Iran in an effort to force it back to the negotiating table, warning 'you are either with us or against us.' Iran's government dismissed the threats, saying years of previous US sanctions had already failed to break the country. The USS Abraham Lincoln is heading home after a record wartime deployment.",
+      "date": "2026-08-21",
+      "img": "images/news8.jpg"
+    },
+    {
+      "title": "Israel Launches Criminal Investigations Into Troop Conduct in Gaza",
+      "text": "Israel's military announced its first criminal investigations into the conduct of its troops in Gaza, focusing on the killing of five-year-old Hind Rajab and her family, as well as the deaths of 15 Palestinian paramedics. The announcement came amid sustained international pressure and was described by human rights groups as a significant but overdue step. The family of Hind Rajab has demanded a full independent investigation, saying they want truth and accountability.",
+      "date": "2026-08-20",
+      "img": "images/news9.jpg"
+    }
+  ],
+
+  "didYouKnow": [
+    {
+      "title": "Claude Opus 5 Aces the Maths Olympiad",
+      "content": "Anthropic's Claude Opus 5, released in late July 2026, scored a perfect 42 out of 42 on the 2026 International Mathematical Olympiad — the first AI model ever to achieve a perfect score on this prestigious competition. It also leads global AI benchmarks for coding, agentic tasks, and long-context reasoning, and costs half as much as its predecessor Claude Fable 5."
+    },
+    {
+      "title": "OpenAI Pauses a Model Over Cybersecurity Risk",
+      "content": "OpenAI paused development of its upcoming 'Astra' model in August 2026 after internal evaluations found it could autonomously discover and exploit zero-day vulnerabilities in real-world systems — the first AI model to trigger OpenAI's 'Critical Cybersecurity Threshold' under its Preparedness Framework. The model remains in development with no set release date while safety measures are improved."
+    },
+    {
+      "title": "AI Content Must Now Be Watermarked in the EU",
+      "content": "From August 2, 2026, the EU requires all AI providers serving European users to embed invisible watermarks in AI-generated content. Anthropic, OpenAI, Google, and other major labs have all signed the EU AI Act Code of Practice and are implementing watermarking systems. This makes it technically possible to detect whether any piece of text, image, or audio was created by an AI."
+    },
+    {
+      "title": "Google DeepMind Has a New Boss",
+      "content": "Google DeepMind has appointed Koray Kavukcuoglu as its new CEO after co-founder Demis Hassabis stepped up to become Chair and Chief Scientist. Kavukcuoglu, previously the unit's CTO, inherits a mission to close the gap with OpenAI and Anthropic at the AI frontier. Google has not released a major new frontier model since early 2026, while its rivals have shipped multiple flagship models."
+    },
+    {
+      "title": "OpenAI Now Has One Billion Users",
+      "content": "OpenAI's ChatGPT crossed one billion active users in August 2026, making it one of the fastest consumer technology platforms ever to reach that milestone. To mark the milestone, OpenAI launched ChatGPT for Teens, introduced zero data retention for frontier models, and announced that ChatGPT Ads is now expanding across Europe. The company is also preparing for a public listing that could value it at over a trillion dollars."
+    }
+  ],
+
+  "winner": {
+    "name": "Vinothkumar",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}

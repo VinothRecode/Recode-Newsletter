@@ -1,0 +1,92 @@
+{
+  "week": {
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-25",
+    "label": "Monday to Friday News"
+  },
+  "news": [
+    {
+      "title": "Tamil Nadu Records 22 Murders in a Single Week, Opposition Slams Law and Order",
+      "text": "A week-long review found that Tamil Nadu recorded 22 murders between September 14 and 20, most linked to personal enmity and drunken brawls, spanning districts from Vellore and Madurai to Sivaganga and Kanniyakumari. DMK president M.K. Stalin attacked the TVK government, saying the state now faces a choice between 'power cuts and machete cuts,' while AIADMK and DMDK leaders also criticised deteriorating law and order. CM Vijay, who holds the police portfolio, is facing calls to act.",
+      "date": "2026-09-23",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "49 Candidates in Fray for October 6 Tamil Nadu Assembly Bypolls",
+      "text": "After nominations closed, 49 candidates remain in the contest for the reserved Madurantakam and Dharapuram assembly seats, which fell vacant after two AIADMK MLAs resigned and joined the ruling TVK. The DMK, AIADMK, Left parties and NTK have all fielded candidates, making the bypolls an early test for CM Vijay's government. AIADMK chief Edappadi Palaniswami expressed confidence of reclaiming both seats, which his party had won in the 2026 Assembly election.",
+      "date": "2026-09-19",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Chennai Sees Scheduled Power Cuts Across 300+ Localities for TANGEDCO Maintenance",
+      "text": "Large parts of Chennai, including Royapettah, Guindy, Adyar, Korattur and Porur, faced planned five-hour power cuts this week as TANGEDCO carried out maintenance work, with more shutdowns notified for September 25 in areas like Tambaram, Velachery and Ambattur. CM Vijay reviewed the state's power supply, generation capacity and demand-supply gaps at TNEB headquarters amid the disruptions, as residents were advised to prepare backup arrangements in advance.",
+      "date": "2026-09-24",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "Chennai Metro Phase II's First Stretch Nears Long-Awaited Opening",
+      "text": "The 14.6 km Poonamallee Bypass–Vadapalani corridor of Chennai Metro Phase II, technically ready with all safety clearances secured, continues to await a formal inauguration date from the Centre. The Tamil Nadu government has also pitched three new metro extensions — Airport to Kilambakkam, Koyambedu to Pattabiram, and Poonamallee to Sunguvarchatram — as it pushes to expand the city's 118.9 km Phase II network.",
+      "date": "2026-09-22",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "Chennai Gold Prices Ease as Silver Also Slips This Week",
+      "text": "Gold in Chennai fell to Rs 1,12,000 per sovereign on September 24, down Rs 1,080 from the previous day, while silver eased to Rs 250 per gram. Despite the dip, gold remains sharply higher than a year ago, up nearly 32% from September 2025 levels, driven largely by global uncertainty following the US-Iran standoff and elevated crude oil prices since earlier this year.",
+      "date": "2026-09-24",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Trump Warns Iran He Will 'Annihilate' the Country, Tehran Hits Back at UN",
+      "text": "At the UN General Assembly this week, US President Donald Trump warned he would 'annihilate' Iran if its leaders failed to reach a deal, while Iranian President Masoud Pezeshkian told the same body that Iran was a victim of US aggression and had a right to peaceful nuclear technology, though it would not pursue nuclear weapons. The exchange came amid Washington's toughest-ever sanctions push against Tehran and continuing tension in the Gulf.",
+      "date": "2026-09-23",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Xi Jinping Begins Three-Day State Visit to Washington for Trump Summit",
+      "text": "Chinese President Xi Jinping arrived in Washington this week for a three-day state visit, with a closely watched summit with President Trump expected to address trade, technology and broader US-China tensions. The visit comes as analysts weigh what concessions either side might offer, with implications for global markets and the wider Indo-Pacific region.",
+      "date": "2026-09-24",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "Fears of Renewed War Grow in Ethiopia's Tigray Region",
+      "text": "Ethiopia's federal government and Tigrayan forces have accused each other of launching fresh offensives, raising fears of a return to full-scale conflict just four years after a devastating war ended in a fragile 2022 peace deal. Reports this week said Tigrayan forces had seized control of airports in the region, deepening concerns of a renewed humanitarian crisis in northern Ethiopia.",
+      "date": "2026-09-24",
+      "img": "images/news8.jpg"
+    },
+    {
+      "title": "Netanyahu Addresses UN General Assembly Amid Continued Gaza Criticism",
+      "text": "Israeli Prime Minister Benjamin Netanyahu addressed the UN General Assembly this week as the Gaza conflict continued to draw sharp international criticism, with French President Emmanuel Macron calling the ongoing assault 'a spectacle that shames us all.' The remarks came during a tense week at the UN that also featured addresses from Iran, Venezuela and other leaders navigating fraught relations with Washington.",
+      "date": "2026-09-24",
+      "img": "images/news9.jpg"
+    }
+  ],
+
+  "didYouKnow": [
+    {
+      "title": "Anthropic Holds Onto Its Lead in the AI Race",
+      "content": "As of late September 2026, prediction markets put Anthropic at roughly a 96% likelihood of having the best AI model in the industry by month's end, ahead of OpenAI, Google and other rivals. The gap reflects Anthropic's continued strength in coding, agentic tasks and enterprise adoption, where it has overtaken OpenAI in business usage this year."
+    },
+    {
+      "title": "OpenAI's ChatGPT Implicated in Australian Government Data Breach",
+      "content": "Australian Prime Minister Anthony Albanese said this week he was 'extremely concerned' after OpenAI took too long to disclose that its ChatGPT product had breached an Australian health department website, exposing sensitive government data. The incident has renewed scrutiny of how AI companies handle security lapses involving government systems."
+    },
+    {
+      "title": "India International Water Week 2026 Opens in Delhi",
+      "content": "The ninth edition of India International Water Week began on September 22 at Bharat Mandapam, New Delhi, running through September 26 under the theme 'Climate Resilient Water Management.' The event, inaugurated by Vice-President C.P. Radhakrishnan, brings together policymakers and industry experts from around the world to discuss sustainable water management."
+    },
+    {
+      "title": "A Federal Judge Reinstates Press Access at the White House",
+      "content": "A US federal judge temporarily blocked President Trump's ban on CNN, MSNBC and Politico from White House grounds this week, ordering their access be immediately restored. The two-week restraining order was granted by a Trump-appointed judge, intensifying the ongoing debate over press freedom in Washington."
+    },
+    {
+      "title": "Hurricane Polo Threatens Mexico's Pacific Coast",
+      "content": "Hurricane Polo peaked at 180 mph winds this week before weakening, but it continues to threaten deadly flooding and mudslides along Mexico's Pacific coast. Acapulco and Zihuatanejo ports were closed as a precaution, with forecasters warning of up to eight inches of rain in mountainous areas of Guerrero state."
+    }
+  ],
+
+  "winner": {
+    "name": "Shankar Nivash",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}

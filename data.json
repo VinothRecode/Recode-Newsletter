@@ -1,0 +1,78 @@
+
+{
+  "news": [
+    {
+      "title": "US Suspends Green Card Filings at Eight Major Firms, Including TCS and Infosys, Amid Visa Fraud Probe",
+      "text": "The Trump administration has suspended certain Green Card filings by eight major companies, including TCS, Infosys, Wipro, HCL Technologies, Cognizant, Microsoft, Adobe, and Capgemini, citing concerns about visa fraud and American job losses. The move could disrupt the path to permanent residency for thousands of foreign tech workers, particularly Indians, while investigations have also been launched into nine prominent US universities. Current H-1B visa holders do not appear to be directly affected by this suspension, according to the report.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "South Africa’s Anti-Migrant Protests Turn Violent as Government Blames Disinformation for Rising Tensions",
+      "text": "Anti-migrant protests in South Africa have turned violent, raising concerns about the safety of foreign nationals living and working in the country. The government has blamed disinformation for fueling tensions and spreading hostility toward migrants. The unrest highlights growing concerns over immigration, unemployment, and xenophobia, with authorities facing pressure to restore peace and protect affected communities.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "RBI Raises Repo Rate to 5.50% as Inflation Concerns and Rising Oil Prices Put Pressure on Economy",
+      "text": "The Reserve Bank of India (RBI) has reportedly raised the benchmark repo rate by 25 basis points to 5.50%, marking its first rate hike in nearly four years, amid rising crude oil prices and a weakening rupee. The RBI has also increased its FY27 inflation forecast to 5.2% and adopted a calibrated tightening approach. The move could lead to higher home and personal loan interest rates, increasing borrowing costs for consumers and businesses.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "France Faces Widespread Student and Teacher Protests Over Staff Shortages and Education Quality",
+      "text": "France is witnessing widespread student and teacher protests, with thousands marching and schools facing blockades over teacher shortages and declining education quality. Demonstrators are demanding better staffing, improved learning conditions, and greater investment in public education. The unrest has sparked debate across the country, with public opinion divided over the protests and their impact on students and schools.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "GST Council Introduces Major Reforms to Ease Business Compliance, Raises Prosecution Threshold to ₹5 Crore",
+      "text": "India’s GST Council has introduced major reforms to reduce the compliance burden on businesses, including raising the prosecution threshold for tax offences from ₹1 crore to ₹5 crore and easing certain penalties. The Council has also reportedly removed arrest powers for GST field officers and decided to keep product tax rates unchanged, with rate reviews planned annually. These measures aim to simplify GST compliance and provide greater certainty for Indian businesses.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Delhi Protests Intensify as Opposition Demands CEC Gyanesh Kumar’s Resignation Over Alleged Electoral Irregularities",
+      "text": "Political tensions have escalated in New Delhi as opposition parties and the student-led Cockroach Janta Party (CJP) demand the resignation of Chief Election Commissioner Gyanesh Kumar over alleged electoral roll irregularities and vote theft linked to the Special Intensive Revision (SIR). Congress leaders Rahul Gandhi and Priyanka Gandhi Vadra were reportedly detained following a protest, while authorities tightened security ahead of a planned march. The Supreme Court has emphasized citizens’ fundamental rights to peaceful protest and association, seeking justification for restrictions imposed by the police.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Microsoft and Nvidia Join Forces to Challenge Apple with AI-Powered Surface Laptop Ultra",
+      "text": "Microsoft and Nvidia have reportedly teamed up to challenge Apple’s MacBook Pro with the new Surface Laptop Ultra, featuring Nvidia’s Blackwell-based AI chips. The device is claimed to deliver powerful AI processing at low power consumption, allowing users to run large AI models directly on their laptops without relying on cloud services. The goal is to attract AI developers and creative professionals who currently favor Apple’s high-performance Macs.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "Hexaware Shares Surge 11% as Company Partners with Anthropic to Expand Claude-Powered AI Automation",
+      "text": "Hexaware Technologies’ shares reportedly rose 11% after the Indian IT services company joined Anthropic’s Claude Partner Network as a preferred partner. The partnership will integrate Anthropic’s Claude AI models into Hexaware’s Zerovity and AgentVerse automation platforms, supported by 1,100 Claude-certified professionals. The move aims to accelerate AI-powered automation and help businesses adopt AI solutions more efficiently.",
+      "img": "images/news8.jpg"
+    },
+    {
+      "title": "Samsung Forecasts Ninefold Profit Surge as AI Chip Demand Fuels Record Earnings",
+      "text": "Samsung Electronics expects its quarterly operating profit to surge ninefold year-on-year to 107.4 trillion won, driven by strong global demand for AI memory chips used in data centres. The company is benefiting from the AI boom, alongside competitors SK Hynix and Micron, while its latest foldable smartphones may provide an additional boost. Full third-quarter results are expected to be released at the end of October.",
+      "img": "images/news9.jpg"
+    }
+  ],
+ 
+"didYouKnow": [
+  {
+    "title": "Quantum Physics",
+    "content": "Quantum tunnelling allows tiny particles to pass through energy barriers that they could not cross according to classical physics."
+  },
+  {
+    "title": "Animal Intelligence",
+    "content": "Crows can recognize individual human faces and remember people they associate with danger, sometimes for years."
+  },
+  {
+    "title": "Hidden Earth",
+    "content": "Earth's inner core is estimated to be as hot as the surface of the Sun, yet immense pressure keeps it mostly solid."
+  },
+  {
+    "title": "Space Mysteries",
+    "content": "Neutron stars are incredibly dense—a teaspoon of their material could weigh around a billion tonnes on Earth, depending on the star."
+  },
+  {
+    "title": "Unexpected Biology",
+    "content": "Octopuses have three hearts, blue blood, and neurons distributed throughout their arms, allowing their arms to perform some movements semi-independently."
+  }
+],
+  "winner": {
+    "name": "Vignesh Suresh",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}

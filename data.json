@@ -1,0 +1,72 @@
+{
+  "news": [
+    {
+      "title": "Retail Inflation Crosses RBI's 6% Limit; PM Says Govt Absorbed Rs 43 of Diesel Hike",
+      "text": "India's retail inflation rose to 6.09% in October 2026, up from 5.54% in September, according to data released by MoSPI on November 12. It is the first time in two years that inflation has crossed the RBI's upper tolerance limit of 6%. Food inflation climbed to 8.94%, with rural inflation at 6.63% and urban at 5.41%. On the same day, Prime Minister Narendra Modi told a farmers' conference in Delhi that the government had absorbed Rs 43 of a potential Rs 50 per litre diesel price hike caused by the West Asia crisis, passing on only Rs 7 to consumers at a cost of about Rs 14,000 crore a month.",
+      "img": "images/news1.jpg"
+    },
+    {
+      "title": "Russia and Ukraine Hold First Peace Talks in Nine Months in Abu Dhabi",
+      "text": "Russian and Ukrainian officials met in Abu Dhabi on November 10–11, 2026, for their first peace talks since February, as US President Donald Trump's envoys Steve Witkoff and Jared Kushner launched a new push to end the war. The two-day session focused on ending the fighting, post-war security guarantees and de-escalation. Washington and Kyiv described the discussions as productive, but major disagreements remain over territory and the form of security guarantees for Ukraine.",
+      "img": "images/news2.jpg"
+    },
+    {
+      "title": "Trump Pulls JD Vance Off Iran Talks, Says 'We Don't Need a Deal'",
+      "text": "On November 12, 2026, President Trump publicly removed Vice President JD Vance from negotiations with Iran, telling him to focus on domestic issues instead and saying the US does not need a deal. The move favours keeping the US naval blockade on Iran in place and reverses Trump's comments earlier in the week about 'momentum' towards a settlement. Vance had reportedly been considering a meeting with senior Iranian official Mohsen Rezaei.",
+      "img": "images/news3.jpg"
+    },
+    {
+      "title": "India Wins 10 Medals at Dakar Youth Olympics, Including First-Ever Boxing Golds",
+      "text": "India ended its campaign at the Dakar 2026 Youth Olympic Games on November 13 with 10 medals – 2 gold, 3 silver and 5 bronze – its second-best performance after the 13 medals won in 2018. Boxers Lairenlakpam Ambekar Meetei (Boys' 50kg) and Gunjan (Girls' 48kg) won India's first-ever Youth Olympic boxing golds. Swimmer Dhinidhi Desinghu became the first Indian to win two medals at a single Youth Olympics, and Taniya won India's first-ever beach wrestling medal at the Games.",
+      "img": "images/news4.jpg"
+    },
+    {
+      "title": "Matt Henry Destroys India as New Zealand Win 4th ODI by 244 Runs",
+      "text": "New Zealand thrashed India by 244 runs in the 4th ODI at Bay Oval, Mount Maunganui, on November 13, 2026. Will Young's 125 powered New Zealand to 333, before Matt Henry ripped through the Indian top order – removing Rohit Sharma, Virat Kohli and Shreyas Iyer in his first over – to bowl India out for just 89 in 26.4 overs. India still lead the five-match series 2–1 after the third ODI was called off, with the deciding fifth ODI on November 15. A two-Test series begins in Wellington on November 19.",
+      "img": "images/news5.jpg"
+    },
+    {
+      "title": "Indonesia's Vice President Gibran Offers to Resign Amid Diploma Dispute",
+      "text": "Indonesian Vice President Gibran Rakabuming Raka told President Prabowo Subianto on November 10, 2026, that he intends to resign, the State Secretary announced. The move follows a dispute over the educational documents Gibran used to register as a candidate in the 2024 election, with around 50 lawmakers pushing a parliamentary motion over his eligibility. Gibran has not formally stepped down yet and wants to prove the validity of his documents in court.",
+      "img": "images/news6.jpg"
+    },
+    {
+      "title": "Ladakh Announces Hill Council Elections for December 4",
+      "text": "The Ladakh administration announced on November 10, 2026, the election schedule for its Autonomous Hill Development Councils, with polling set for December 4. Nominations can be filed until November 17, with scrutiny on November 18 and the last date for withdrawal on November 20. The councils have been extended to Ladakh's newly created districts. Civil society groups in the region have continued to press their demands despite the announcement. Separately, Ladakh will hold its first Panchayat polls since becoming a Union Territory on November 21.",
+      "img": "images/news7.jpg"
+    },
+    {
+      "title": "Supreme Court Flags Vehicle Emissions as Major Cause of Delhi Air Pollution",
+      "text": "The Supreme Court, led by Chief Justice Surya Kant, said that while stubble burning has declined significantly, vehicle pollution has become an equally pressing problem in Delhi-NCR and needs urgent intervention. The court asked Delhi, Uttar Pradesh, Haryana and Rajasthan to report within two weeks on steps to stop over-age and non-compliant vehicles, and on enforcement action taken. The matter will next be heard on November 23. Delhi's AQI improved slightly to 299 ('poor') on Tuesday this week.",
+      "img": "images/news8.jpg"
+    }
+  ],
+
+  "didYouKnow": [
+    {
+      "title": "RBI's Inflation Target",
+      "content": "Since 2016, India has followed a 'flexible inflation targeting' framework. The RBI's target is 4% retail (CPI) inflation, with a tolerance band of 2% on either side – so 6% is the upper limit. October 2026's reading of 6.09% crossed that ceiling for the first time in two years."
+    },
+    {
+      "title": "Olympics in Africa",
+      "content": "The Dakar 2026 Youth Olympic Games in Senegal were the first Olympic event ever held on the African continent. The Youth Olympics are for athletes aged 15 to 18, and the first edition was held in Singapore in 2010."
+    },
+    {
+      "title": "Indonesia – Nation of Islands",
+      "content": "Indonesia is the world's largest archipelagic country, made up of more than 17,000 islands. With over 280 million people, it is the fourth most populous country in the world and has the largest Muslim population of any nation."
+    },
+    {
+      "title": "Ladakh's Hill Councils",
+      "content": "Ladakh became a separate Union Territory on 31 October 2019. Its first Autonomous Hill Development Council was set up in Leh in 1995, followed by Kargil in 2003. These councils handle local matters such as land use, development planning and local taxation."
+    },
+    {
+      "title": "How AQI Is Measured",
+      "content": "India launched its National Air Quality Index in 2014. The AQI runs from 0 to 500 and has six categories: Good (0–50), Satisfactory (51–100), Moderately Polluted (101–200), Poor (201–300), Very Poor (301–400) and Severe (401–500). Delhi's reading of 299 this week sat right at the top of the 'Poor' band."
+    }
+  ],
+  "winner": {
+    "name": "Selva",
+    "title": "Winner",
+    "image": "images/winner.jpg"
+  }
+}
